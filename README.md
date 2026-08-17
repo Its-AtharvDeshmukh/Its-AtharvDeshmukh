@@ -42,7 +42,6 @@ I am a Computer Engineering student (B.Tech '27) and full-stack developer specia
 ---
 
 ### 📊 GitHub Activity
-
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Its-AtharvDeshmukh&show_icons=true&theme=tokyonight&hide_border=true" alt="Atharv's GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Its-AtharvDeshmukh&layout=compact&theme=tokyonight&hide_border=true" alt="Atharv's Top Languages" />
