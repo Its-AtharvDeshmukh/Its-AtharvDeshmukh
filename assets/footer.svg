@@ -2,9 +2,9 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 760 92"
+  viewBox="0 0 760 112"
   width="760"
-  height="92"
+  height="112"
   role="img"
   aria-labelledby="title description"
 >
@@ -17,13 +17,11 @@
   </desc>
 
 
-  <!-- ====================================================== -->
-  <!-- DEFINITIONS                                            -->
-  <!-- ====================================================== -->
-
   <defs>
 
-    <!-- BACKGROUND -->
+    <!-- ================================================== -->
+    <!-- BACKGROUND                                         -->
+    <!-- ================================================== -->
 
     <linearGradient
       id="footerBackground"
@@ -38,7 +36,9 @@
     </linearGradient>
 
 
-    <!-- BORDER -->
+    <!-- ================================================== -->
+    <!-- BORDER                                             -->
+    <!-- ================================================== -->
 
     <linearGradient
       id="footerBorder"
@@ -47,39 +47,16 @@
       x2="1"
       y2="0"
     >
-      <stop
-        offset="0%"
-        stop-color="#22D3EE"
-        stop-opacity=".15"
-      />
-
-      <stop
-        offset="26%"
-        stop-color="#22D3EE"
-        stop-opacity=".80"
-      />
-
-      <stop
-        offset="55%"
-        stop-color="#8B5CF6"
-        stop-opacity=".85"
-      />
-
-      <stop
-        offset="78%"
-        stop-color="#22C55E"
-        stop-opacity=".65"
-      />
-
-      <stop
-        offset="100%"
-        stop-color="#22C55E"
-        stop-opacity=".12"
-      />
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity=".58"/>
+      <stop offset="34%" stop-color="#0891B2" stop-opacity=".72"/>
+      <stop offset="65%" stop-color="#8B5CF6" stop-opacity=".78"/>
+      <stop offset="100%" stop-color="#22C55E" stop-opacity=".58"/>
     </linearGradient>
 
 
-    <!-- MOTTO TEXT -->
+    <!-- ================================================== -->
+    <!-- MOTTO                                              -->
+    <!-- ================================================== -->
 
     <linearGradient
       id="mottoGradient"
@@ -94,60 +71,80 @@
     </linearGradient>
 
 
-    <!-- CYAN GLOW -->
-
-    <radialGradient
-      id="footerCyanGlow"
-      cx="15%"
-      cy="100%"
-      r="72%"
-    >
-      <stop
-        offset="0%"
-        stop-color="#22D3EE"
-        stop-opacity=".14"
-      />
-
-      <stop
-        offset="100%"
-        stop-color="#22D3EE"
-        stop-opacity="0"
-      />
-    </radialGradient>
-
-
-    <!-- VIOLET GLOW -->
-
-    <radialGradient
-      id="footerVioletGlow"
-      cx="88%"
-      cy="0%"
-      r="72%"
-    >
-      <stop
-        offset="0%"
-        stop-color="#8B5CF6"
-        stop-opacity=".15"
-      />
-
-      <stop
-        offset="100%"
-        stop-color="#8B5CF6"
-        stop-opacity="0"
-      />
-    </radialGradient>
-
-
-    <!-- REFLECTION -->
+    <!-- ================================================== -->
+    <!-- BOTTOM ACCENT                                      -->
+    <!-- ================================================== -->
 
     <linearGradient
-      id="footerReflection"
+      id="bottomAccent"
       x1="0"
       y1="0"
       x2="1"
       y2="0"
     >
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#22D3EE"/>
+      <stop offset="48%" stop-color="#8B5CF6"/>
+      <stop offset="78%" stop-color="#14B8A6"/>
+      <stop offset="100%" stop-color="#22C55E" stop-opacity="0"/>
+    </linearGradient>
 
+
+    <!-- ================================================== -->
+    <!-- GLOWS                                              -->
+    <!-- ================================================== -->
+
+    <radialGradient
+      id="cyanGlow"
+      cx="10%"
+      cy="100%"
+      r="75%"
+    >
+      <stop
+        offset="0%"
+        stop-color="#22D3EE"
+        stop-opacity=".12"
+      />
+
+      <stop
+        offset="100%"
+        stop-color="#22D3EE"
+        stop-opacity="0"
+      />
+    </radialGradient>
+
+
+    <radialGradient
+      id="violetGlow"
+      cx="90%"
+      cy="0%"
+      r="75%"
+    >
+      <stop
+        offset="0%"
+        stop-color="#8B5CF6"
+        stop-opacity=".13"
+      />
+
+      <stop
+        offset="100%"
+        stop-color="#8B5CF6"
+        stop-opacity="0"
+      />
+    </radialGradient>
+
+
+    <!-- ================================================== -->
+    <!-- REFLECTION                                         -->
+    <!-- ================================================== -->
+
+    <linearGradient
+      id="reflection"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="0"
+    >
       <stop
         offset="0%"
         stop-color="#FFFFFF"
@@ -157,19 +154,19 @@
       <stop
         offset="40%"
         stop-color="#FFFFFF"
-        stop-opacity=".02"
+        stop-opacity=".018"
       />
 
       <stop
         offset="50%"
         stop-color="#FFFFFF"
-        stop-opacity=".14"
+        stop-opacity=".13"
       />
 
       <stop
         offset="60%"
         stop-color="#FFFFFF"
-        stop-opacity=".03"
+        stop-opacity=".025"
       />
 
       <stop
@@ -177,227 +174,157 @@
         stop-color="#FFFFFF"
         stop-opacity="0"
       />
-
     </linearGradient>
 
 
-    <!-- CLIPPING -->
+    <!-- ================================================== -->
+    <!-- CLIPPING                                           -->
+    <!-- ================================================== -->
 
     <clipPath id="footerClip">
-
       <rect
         x="10"
-        y="10"
+        y="8"
         width="740"
-        height="72"
-        rx="21"
+        height="96"
+        rx="22"
       />
-
     </clipPath>
 
 
-    <!-- SHADOW -->
+    <!-- ================================================== -->
+    <!-- ANIMATION                                          -->
+    <!-- ================================================== -->
 
-    <filter
-      id="footerShadow"
-      x="-20%"
-      y="-40%"
-      width="140%"
-      height="180%"
-    >
+    <style>
 
-      <feDropShadow
-        dx="0"
-        dy="6"
-        stdDeviation="10"
-        flood-color="#000000"
-        flood-opacity=".27"
-      />
+      .sans {
+        font-family:
+          Inter,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Arial,
+          sans-serif;
+      }
 
-    </filter>
+      .mono {
+        font-family:
+          "JetBrains Mono",
+          "SFMono-Regular",
+          Consolas,
+          "Liberation Mono",
+          monospace;
+      }
 
 
-    <!-- SOFT TEXT GLOW -->
+      .reflection {
+        animation:
+          reflectionSweep
+          7.5s
+          cubic-bezier(.4,0,.2,1)
+          infinite;
+      }
 
-    <filter
-      id="mottoGlow"
-      x="-20%"
-      y="-80%"
-      width="140%"
-      height="260%"
-    >
+      @keyframes reflectionSweep {
 
-      <feGaussianBlur
-        stdDeviation="2.8"
-        result="blur"
-      />
+        0% {
+          transform: translateX(-180px);
+          opacity: 0;
+        }
 
-      <feMerge>
+        12% {
+          opacity: .90;
+        }
 
-        <feMergeNode in="blur"/>
+        72% {
+          opacity: .90;
+        }
 
-        <feMergeNode in="SourceGraphic"/>
+        86% {
+          opacity: 0;
+        }
 
-      </feMerge>
+        100% {
+          transform: translateX(1050px);
+          opacity: 0;
+        }
 
-    </filter>
+      }
+
+
+      .accent-pulse {
+        animation:
+          accentPulse
+          4s
+          ease-in-out
+          infinite;
+      }
+
+      @keyframes accentPulse {
+
+        0%,
+        100% {
+          opacity: .55;
+        }
+
+        50% {
+          opacity: 1;
+        }
+
+      }
+
+
+      @media (prefers-reduced-motion: reduce) {
+
+        .reflection,
+        .accent-pulse {
+          animation: none !important;
+        }
+
+      }
+
+    </style>
 
   </defs>
 
 
   <!-- ====================================================== -->
-  <!-- ANIMATION                                              -->
-  <!-- ====================================================== -->
-
-  <style>
-
-    .sans {
-      font-family:
-        Inter,
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Roboto,
-        Arial,
-        sans-serif;
-    }
-
-
-    .mono {
-      font-family:
-        "JetBrains Mono",
-        "SFMono-Regular",
-        Consolas,
-        "Liberation Mono",
-        monospace;
-    }
-
-
-    .reflectionMove {
-      animation:
-        footerSweep
-        7s
-        cubic-bezier(.4,0,.2,1)
-        infinite;
-    }
-
-
-    @keyframes footerSweep {
-
-      0% {
-        transform: translateX(-180px);
-        opacity: 0;
-      }
-
-      14% {
-        opacity: .85;
-      }
-
-      70% {
-        opacity: .85;
-      }
-
-      86% {
-        opacity: 0;
-      }
-
-      100% {
-        transform: translateX(1080px);
-        opacity: 0;
-      }
-
-    }
-
-
-    .dividerFlow {
-      stroke-dasharray: 4 8;
-      animation:
-        dividerMotion
-        2.4s
-        linear
-        infinite;
-    }
-
-
-    @keyframes dividerMotion {
-
-      to {
-        stroke-dashoffset: -24;
-      }
-
-    }
-
-
-    .dotPulse {
-      animation:
-        dotPulse
-        2.4s
-        ease-in-out
-        infinite;
-    }
-
-
-    @keyframes dotPulse {
-
-      0%,
-      100% {
-        opacity: .45;
-      }
-
-      50% {
-        opacity: 1;
-      }
-
-    }
-
-
-    @media (prefers-reduced-motion: reduce) {
-
-      .reflectionMove,
-      .dividerFlow,
-      .dotPulse {
-        animation: none !important;
-      }
-
-    }
-
-  </style>
-
-
-  <!-- ====================================================== -->
-  <!-- CARD                                                   -->
+  <!-- MAIN CARD                                              -->
   <!-- ====================================================== -->
 
   <rect
     x="10"
-    y="10"
+    y="8"
     width="740"
-    height="72"
-    rx="21"
+    height="96"
+    rx="22"
     fill="url(#footerBackground)"
     stroke="url(#footerBorder)"
-    stroke-width="1.25"
-    filter="url(#footerShadow)"
+    stroke-width="1.3"
+  />
+
+
+  <!-- BACKGROUND GLOWS -->
+
+  <rect
+    x="10"
+    y="8"
+    width="740"
+    height="96"
+    rx="22"
+    fill="url(#cyanGlow)"
   />
 
 
   <rect
     x="10"
-    y="10"
+    y="8"
     width="740"
-    height="72"
-    rx="21"
-    fill="url(#footerCyanGlow)"
-  />
-
-
-  <rect
-    x="10"
-    y="10"
-    width="740"
-    height="72"
-    rx="21"
-    fill="url(#footerVioletGlow)"
+    height="96"
+    rx="22"
+    fill="url(#violetGlow)"
   />
 
 
@@ -407,17 +334,17 @@
 
   <g clip-path="url(#footerClip)">
 
-    <g class="reflectionMove">
+    <g class="reflection">
 
-      <g transform="rotate(15 -80 45)">
+      <g transform="rotate(14 -60 55)">
 
         <rect
-          x="-105"
-          y="-80"
-          width="100"
-          height="260"
-          rx="30"
-          fill="url(#footerReflection)"
+          x="-115"
+          y="-90"
+          width="95"
+          height="290"
+          rx="28"
+          fill="url(#reflection)"
         />
 
       </g>
@@ -433,112 +360,160 @@
 
   <text
     x="380"
-    y="39"
+    y="35"
     text-anchor="middle"
     class="sans"
-    font-size="16"
+    font-size="15.5"
     font-weight="650"
-    letter-spacing=".05"
     fill="url(#mottoGradient)"
-    filter="url(#mottoGlow)"
   >
     Build with purpose. Improve with every version.
   </text>
 
 
   <!-- ====================================================== -->
-  <!-- SMALL DIVIDER                                          -->
+  <!-- DIVIDER                                                -->
   <!-- ====================================================== -->
 
   <line
-    class="dividerFlow"
-    x1="194"
-    y1="52"
-    x2="566"
-    y2="52"
-    stroke="#22D3EE"
-    stroke-width="1"
-    stroke-opacity=".35"
+    x1="86"
+    y1="49"
+    x2="674"
+    y2="49"
+    stroke="#FFFFFF"
+    stroke-opacity=".07"
   />
 
 
   <!-- ====================================================== -->
-  <!-- AREAS                                                  -->
+  <!-- EXACT FOUR-COLUMN GRID                                 -->
   <!-- ====================================================== -->
 
-  <circle
-    class="dotPulse"
-    cx="230"
-    cy="66"
-    r="2.5"
+
+  <!-- COLUMN 1 -->
+
+  <rect
+    x="54"
+    y="60"
+    width="154"
+    height="26"
+    rx="13"
     fill="#22D3EE"
+    fill-opacity=".065"
+    stroke="#22D3EE"
+    stroke-opacity=".20"
   />
+
 
   <text
-    x="241"
-    y="69"
+    x="131"
+    y="77"
+    text-anchor="middle"
     class="mono"
-    font-size="8.6"
-    fill="#94A3B8"
+    font-size="9.5"
+    font-weight="700"
+    fill="#67E8F9"
   >
     FULL-STACK
   </text>
 
 
-  <circle
-    class="dotPulse"
-    cx="322"
-    cy="66"
-    r="2.5"
-    fill="#8B5CF6"
+  <!-- COLUMN 2 -->
+
+  <rect
+    x="220"
+    y="60"
+    width="154"
+    height="26"
+    rx="13"
+    fill="#3B82F6"
+    fill-opacity=".065"
+    stroke="#3B82F6"
+    stroke-opacity=".20"
   />
 
+
   <text
-    x="333"
-    y="69"
+    x="297"
+    y="77"
+    text-anchor="middle"
     class="mono"
-    font-size="8.6"
-    fill="#94A3B8"
+    font-size="9.5"
+    font-weight="700"
+    fill="#93C5FD"
   >
     AI SYSTEMS
   </text>
 
 
-  <circle
-    class="dotPulse"
-    cx="421"
-    cy="66"
-    r="2.5"
-    fill="#60A5FA"
+  <!-- COLUMN 3 -->
+
+  <rect
+    x="386"
+    y="60"
+    width="154"
+    height="26"
+    rx="13"
+    fill="#8B5CF6"
+    fill-opacity=".075"
+    stroke="#8B5CF6"
+    stroke-opacity=".22"
   />
 
+
   <text
-    x="432"
-    y="69"
+    x="463"
+    y="77"
+    text-anchor="middle"
     class="mono"
-    font-size="8.6"
-    fill="#94A3B8"
+    font-size="8.3"
+    font-weight="700"
+    fill="#C4B5FD"
   >
     PROMPT ENGINEERING
   </text>
 
 
-  <circle
-    class="dotPulse"
-    cx="553"
-    cy="66"
-    r="2.5"
+  <!-- COLUMN 4 -->
+
+  <rect
+    x="552"
+    y="60"
+    width="154"
+    height="26"
+    rx="13"
     fill="#22C55E"
+    fill-opacity=".065"
+    stroke="#22C55E"
+    stroke-opacity=".20"
   />
 
+
   <text
-    x="564"
-    y="69"
+    x="629"
+    y="77"
+    text-anchor="middle"
     class="mono"
-    font-size="8.6"
-    fill="#94A3B8"
+    font-size="9.5"
+    font-weight="700"
+    fill="#86EFAC"
   >
     HEALTHTECH
   </text>
+
+
+  <!-- ====================================================== -->
+  <!-- BOTTOM ACCENT                                          -->
+  <!-- ====================================================== -->
+
+  <rect
+    class="accent-pulse"
+    x="144"
+    y="94"
+    width="472"
+    height="1.8"
+    rx=".9"
+    fill="url(#bottomAccent)"
+  />
 
 </svg>
