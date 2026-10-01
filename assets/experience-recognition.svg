@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 760 300"
+  width="760"
+  height="300"
+  role="img"
+  aria-labelledby="title description"
+>
+
+  <title id="title">Atharv Deshmukh — Experience and Recognition</title>
+
+  <desc id="description">
+    Hackathon 2026 experience, Oasis Infobyte internship,
+    technical certifications, and current engineering focus.
+  </desc>
+
+
+  <defs>
+
+    <!-- ================================================== -->
+    <!-- BACKGROUND                                         -->
+    <!-- ================================================== -->
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1626"/>
+      <stop offset="52%" stop-color="#08121F"/>
+      <stop offset="100%" stop-color="#050A12"/>
+    </linearGradient>
+
+
+    <!-- ================================================== -->
+    <!-- OUTER BORDER                                       -->
+    <!-- ================================================== -->
+
+    <linearGradient id="outerBorder" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity=".55"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity=".60"/>
+      <stop offset="100%" stop-color="#22C55E" stop-opacity=".55"/>
+    </linearGradient>
+
+
+    <!-- ================================================== -->
+    <!-- CARD BACKGROUND                                    -->
+    <!-- ================================================== -->
+
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".055"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity=".018"/>
+    </linearGradient>
+
+
+    <!-- ================================================== -->
+    <!-- CARD ACCENTS                                       -->
+    <!-- ================================================== -->
+
+    <linearGradient id="hackAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <linearGradient id="internAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+
+    <linearGradient id="certAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22C55E"/>
+    </linearGradient>
+
+
+    <!-- ================================================== -->
+    <!-- GLOWS                                              -->
+    <!-- ================================================== -->
+
+    <radialGradient id="cyanGlow" cx="0%" cy="100%" r="75%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity=".10"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="violetGlow" cx="100%" cy="0%" r="75%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".11"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+
+
+    <!-- ================================================== -->
+    <!-- REFLECTION                                         -->
+    <!-- ================================================== -->
+
+    <linearGradient id="reflection" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="44%" stop-color="#FFFFFF" stop-opacity=".012"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".09"/>
+      <stop offset="56%" stop-color="#FFFFFF" stop-opacity=".018"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+
+    <!-- ================================================== -->
+    <!-- CLIP                                               -->
+    <!-- ================================================== -->
+
+    <clipPath id="mainClip">
+      <rect
+        x="8"
+        y="8"
+        width="744"
+        height="284"
+        rx="24"
+      />
+    </clipPath>
+
+
+    <!-- ================================================== -->
+    <!-- STYLES                                             -->
+    <!-- ================================================== -->
+
+    <style>
+
+      .sans {
+        font-family:
+          Inter,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Arial,
+          sans-serif;
+      }
+
+      .mono {
+        font-family:
+          "JetBrains Mono",
+          "SFMono-Regular",
+          Consolas,
+          "Liberation Mono",
+          monospace;
+      }
+
+
+      .reflection {
+        animation:
+          reflectionSweep
+          8s
+          cubic-bezier(.4,0,.2,1)
+          infinite;
+      }
+
+      @keyframes reflectionSweep {
+
+        0% {
+          transform: translateX(-170px);
+          opacity: 0;
+        }
+
+        15% {
+          opacity: .7;
+        }
+
+        72% {
+          opacity: .7;
+        }
+
+        86% {
+          opacity: 0;
+        }
+
+        100% {
+          transform: translateX(960px);
+          opacity: 0;
+        }
+
+      }
+
+
+      .pulse-1 {
+        animation: pulse 2.7s ease-in-out infinite;
+      }
+
+      .pulse-2 {
+        animation: pulse 2.7s .8s ease-in-out infinite;
+      }
+
+      .pulse-3 {
+        animation: pulse 2.7s 1.6s ease-in-out infinite;
+      }
+
+      @keyframes pulse {
+
+        0%,
+        100% {
+          opacity: .48;
+        }
+
+        50% {
+          opacity: 1;
+        }
+
+      }
+
+
+      .accent {
+        animation:
+          accentPulse
+          4s
+          ease-in-out
+          infinite;
+      }
+
+      @keyframes accentPulse {
+
+        0%,
+        100% {
+          opacity: .60;
+        }
+
+        50% {
+          opacity: 1;
+        }
+
+      }
+
+
+      @media (prefers-reduced-motion: reduce) {
+
+        * {
+          animation: none !important;
+        }
+
+      }
+
+    </style>
+
+  </defs>
+
+
+  <!-- ====================================================== -->
+  <!-- MAIN CONTAINER                                         -->
+  <!-- ====================================================== -->
+
+  <rect
+    x="8"
+    y="8"
+    width="744"
+    height="284"
+    rx="24"
+    fill="url(#bg)"
+    stroke="url(#outerBorder)"
+    stroke-width="1.25"
+  />
+
+  <rect
+    x="8"
+    y="8"
+    width="744"
+    height="284"
+    rx="24"
+    fill="url(#cyanGlow)"
+  />
+
+  <rect
+    x="8"
+    y="8"
+    width="744"
+    height="284"
+    rx="24"
+    fill="url(#violetGlow)"
+  />
+
+
+  <!-- ====================================================== -->
+  <!-- HEADER                                                 -->
+  <!-- ====================================================== -->
+
+  <text
+    x="30"
+    y="40"
+    class="mono"
+    font-size="10.5"
+    font-weight="700"
+    letter-spacing="1.1"
+    fill="#67E8F9"
+  >
+    EXPERIENCE / RECOGNITION
+  </text>
+
+
+  <text
+    x="30"
+    y="59"
+    class="sans"
+    font-size="10.5"
+    fill="#718399"
+  >
+    Practical experience, recognition and technical learning
+  </text>
+
+
+  <!-- STATUS -->
+
+  <rect
+    x="642"
+    y="27"
+    width="82"
+    height="26"
+    rx="13"
+    fill="#22C55E"
+    fill-opacity=".06"
+    stroke="#22C55E"
+    stroke-opacity=".22"
+  />
+
+  <circle
+    class="pulse-1"
+    cx="657"
+    cy="40"
+    r="3.2"
+    fill="#22C55E"
+  />
+
+  <text
+    x="668"
+    y="43.5"
+    class="mono"
+    font-size="8"
+    font-weight="700"
+    fill="#86EFAC"
+  >
+    PROFILE
+  </text>
+
+
+  <line
+    x1="30"
+    y1="72"
+    x2="730"
+    y2="72"
+    stroke="#FFFFFF"
+    stroke-opacity=".065"
+  />
+
+
+  <!-- ====================================================== -->
+  <!-- CARD 01 — HACKATHON                                    -->
+  <!-- ====================================================== -->
+
+  <rect
+    x="30"
+    y="88"
+    width="220"
+    height="145"
+    rx="18"
+    fill="url(#cardBg)"
+    stroke="#FFFFFF"
+    stroke-opacity=".075"
+  />
+
+  <rect
+    class="accent"
+    x="30"
+    y="88"
+    width="220"
+    height="2"
+    rx="1"
+    fill="url(#hackAccent)"
+  />
+
+
+  <text
+    x="46"
+    y="111"
+    class="mono"
+    font-size="8.2"
+    font-weight="700"
+    letter-spacing=".7"
+    fill="#67E8F9"
+  >
+    HACKATHON 2026
+  </text>
+
+
+  <circle
+    cx="226"
+    cy="108"
+    r="9"
+    fill="#22C55E"
+    fill-opacity=".08"
+    stroke="#22C55E"
+    stroke-opacity=".30"
+  />
+
+  <path
+    d="M222 108l2.5 2.5 5-6"
+    fill="none"
+    stroke="#86EFAC"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+
+  <text
+    x="46"
+    y="138"
+    class="sans"
+    font-size="18"
+    font-weight="700"
+    fill="#F8FAFC"
+  >
+    HealthOrbit
+  </text>
+
+
+  <text
+    x="46"
+    y="156"
+    class="sans"
+    font-size="10"
+    font-weight="500"
+    fill="#94A3B8"
+  >
+    Team Fantastic 4
+  </text>
+
+
+  <circle
+    cx="49"
+    cy="177"
+    r="2.8"
+    fill="#22D3EE"
+  />
+
+  <text
+    x="59"
+    y="180.5"
+    class="sans"
+    font-size="9.7"
+    fill="#D8E3EF"
+  >
+    Live project demonstration
+  </text>
+
+
+  <circle
+    cx="49"
+    cy="196"
+    r="2.8"
+    fill="#8B5CF6"
+  />
+
+  <text
+    x="59"
+    y="199.5"
+    class="sans"
+    font-size="9.7"
+    fill="#D8E3EF"
+  >
+    Positive judge feedback
+  </text>
+
+
+  <circle
+    cx="49"
+    cy="215"
+    r="2.8"
+    fill="#22C55E"
+  />
+
+  <text
+    x="59"
+    y="218.5"
+    class="sans"
+    font-size="9.7"
+    fill="#D8E3EF"
+  >
+    Certificate of Participation
+  </text>
+
+
+  <!-- ====================================================== -->
+  <!-- CARD 02 — INTERNSHIP                                   -->
+  <!-- ====================================================== -->
+
+  <rect
+    x="270"
+    y="88"
+    width="220"
+    height="145"
+    rx="18"
+    fill="url(#cardBg)"
+    stroke="#FFFFFF"
+    stroke-opacity=".075"
+  />
+
+  <rect
+    class="accent"
+    x="270"
+    y="88"
+    width="220"
+    height="2"
+    rx="1"
+    fill="url(#internAccent)"
+  />
+
+
+  <text
+    x="286"
+    y="111"
+    class="mono"
+    font-size="8.2"
+    font-weight="700"
+    letter-spacing=".7"
+    fill="#7DD3FC"
+  >
+    INTERNSHIP
+  </text>
+
+
+  <rect
+    x="447"
+    y="99"
+    width="25"
+    height="19"
+    rx="6"
+    fill="#38BDF8"
+    fill-opacity=".07"
+    stroke="#38BDF8"
+    stroke-opacity=".28"
+  />
+
+  <path
+    d="M455 105l-3 3.5 3 3.5M464 105l3 3.5-3 3.5"
+    fill="none"
+    stroke="#BAE6FD"
+    stroke-width="1.3"
+    stroke-linecap="round"
+  />
+
+
+  <text
+    x="286"
+    y="138"
+    class="sans"
+    font-size="18"
+    font-weight="700"
+    fill="#F8FAFC"
+  >
+    Oasis Infobyte
+  </text>
+
+
+  <text
+    x="286"
+    y="156"
+    class="sans"
+    font-size="10"
+    font-weight="500"
+    fill="#94A3B8"
+  >
+    Web Development &amp; Designing
+  </text>
+
+
+  <circle
+    cx="289"
+    cy="177"
+    r="2.8"
+    fill="#22D3EE"
+  />
+
+  <text
+    x="299"
+    y="180.5"
+    class="sans"
+    font-size="9.7"
+    fill="#D8E3EF"
+  >
+    Practical development tasks
+  </text>
+
+
+  <circle
+    cx="289"
+    cy="196"
+    r="2.8"
+    fill="#60A5FA"
+  />
+
+  <text
+    x="299"
+    y="199.5"
+    class="sans"
+    font-size="9.7"
+    fill="#D8E3EF"
+  >
+    Responsive UI &amp; JavaScript
+  </text>
+
+
+  <circle
+    cx="289"
+    cy="215"
+    r="2.8"
+    fill="#8B5CF6"
+  />
+
+  <text
+    x="299"
+    y="218.5"
+    class="sans"
+    font-size="9.7"
+    fill="#D8E3EF"
+  >
+    Project-based learning
+  </text>
+
+
+  <!-- ====================================================== -->
+  <!-- CARD 03 — CERTIFICATIONS                               -->
+  <!-- ====================================================== -->
+
+  <rect
+    x="510"
+    y="88"
+    width="220"
+    height="145"
+    rx="18"
+    fill="url(#cardBg)"
+    stroke="#FFFFFF"
+    stroke-opacity=".075"
+  />
+
+  <rect
+    class="accent"
+    x="510"
+    y="88"
+    width="220"
+    height="2"
+    rx="1"
+    fill="url(#certAccent)"
+  />
+
+
+  <text
+    x="526"
+    y="111"
+    class="mono"
+    font-size="8.2"
+    font-weight="700"
+    letter-spacing=".7"
+    fill="#C4B5FD"
+  >
+    CERTIFICATIONS
+  </text>
+
+
+  <circle
+    cx="706"
+    cy="108"
+    r="9"
+    fill="#8B5CF6"
+    fill-opacity=".08"
+    stroke="#A78BFA"
+    stroke-opacity=".30"
+  />
+
+  <path
+    d="M702 108l2.5 2.5 5-6"
+    fill="none"
+    stroke="#DDD6FE"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+
+  <text
+    x="526"
+    y="138"
+    class="sans"
+    font-size="17"
+    font-weight="700"
+    fill="#F8FAFC"
+  >
+    Technical Learning
+  </text>
+
+
+  <text
+    x="526"
+    y="156"
+    class="sans"
+    font-size="10"
+    font-weight="500"
+    fill="#94A3B8"
+  >
+    Certifications &amp; milestones
+  </text>
+
+
+  <circle
+    class="pulse-1"
+    cx="529"
+    cy="177"
+    r="2.8"
+    fill="#22C55E"
+  />
+
+  <text
+    x="539"
+    y="180.5"
+    class="sans"
+    font-size="9.4"
+    fill="#D8E3EF"
+  >
+    Sigma 7 — Full-Stack MERN
+  </text>
+
+
+  <circle
+    class="pulse-2"
+    cx="529"
+    cy="196"
+    r="2.8"
+    fill="#22D3EE"
+  />
+
+  <text
+    x="539"
+    y="199.5"
+    class="sans"
+    font-size="9.4"
+    fill="#D8E3EF"
+  >
+    Data Structures &amp; Algorithms
+  </text>
+
+
+  <circle
+    class="pulse-3"
+    cx="529"
+    cy="215"
+    r="2.8"
+    fill="#A78BFA"
+  />
+
+  <text
+    x="539"
+    y="218.5"
+    class="sans"
+    font-size="9.4"
+    fill="#D8E3EF"
+  >
+    Hackathon 2026 Recognition
+  </text>
+
+
+  <!-- ====================================================== -->
+  <!-- FOCUS BAR                                              -->
+  <!-- ====================================================== -->
+
+  <line
+    x1="30"
+    y1="248"
+    x2="730"
+    y2="248"
+    stroke="#FFFFFF"
+    stroke-opacity=".055"
+  />
+
+
+  <text
+    x="30"
+    y="270.5"
+    class="mono"
+    font-size="8.2"
+    font-weight="700"
+    fill="#64748B"
+  >
+    FOCUS
+  </text>
+
+
+  <rect
+    x="78"
+    y="257"
+    width="92"
+    height="24"
+    rx="12"
+    fill="#22D3EE"
+    fill-opacity=".055"
+    stroke="#22D3EE"
+    stroke-opacity=".15"
+  />
+
+  <text
+    x="124"
+    y="272"
+    text-anchor="middle"
+    class="mono"
+    font-size="8"
+    font-weight="700"
+    fill="#67E8F9"
+  >
+    FULL-STACK
+  </text>
+
+
+  <rect
+    x="180"
+    y="257"
+    width="92"
+    height="24"
+    rx="12"
+    fill="#3B82F6"
+    fill-opacity=".055"
+    stroke="#3B82F6"
+    stroke-opacity=".15"
+  />
+
+  <text
+    x="226"
+    y="272"
+    text-anchor="middle"
+    class="mono"
+    font-size="8"
+    font-weight="700"
+    fill="#93C5FD"
+  >
+    AI SYSTEMS
+  </text>
+
+
+  <rect
+    x="282"
+    y="257"
+    width="134"
+    height="24"
+    rx="12"
+    fill="#8B5CF6"
+    fill-opacity=".055"
+    stroke="#8B5CF6"
+    stroke-opacity=".15"
+  />
+
+  <text
+    x="349"
+    y="272"
+    text-anchor="middle"
+    class="mono"
+    font-size="7.6"
+    font-weight="700"
+    fill="#C4B5FD"
+  >
+    PROMPT ENGINEERING
+  </text>
+
+
+  <rect
+    x="426"
+    y="257"
+    width="92"
+    height="24"
+    rx="12"
+    fill="#14B8A6"
+    fill-opacity=".055"
+    stroke="#14B8A6"
+    stroke-opacity=".15"
+  />
+
+  <text
+    x="472"
+    y="272"
+    text-anchor="middle"
+    class="mono"
+    font-size="8"
+    font-weight="700"
+    fill="#99F6E4"
+  >
+    HEALTHTECH
+  </text>
+
+
+  <rect
+    x="528"
+    y="257"
+    width="92"
+    height="24"
+    rx="12"
+    fill="#22C55E"
+    fill-opacity=".055"
+    stroke="#22C55E"
+    stroke-opacity=".15"
+  />
+
+  <text
+    x="574"
+    y="272"
+    text-anchor="middle"
+    class="mono"
+    font-size="8"
+    font-weight="700"
+    fill="#86EFAC"
+  >
+    BACKEND
+  </text>
+
+
+  <rect
+    x="630"
+    y="257"
+    width="100"
+    height="24"
+    rx="12"
+    fill="#64748B"
+    fill-opacity=".055"
+    stroke="#94A3B8"
+    stroke-opacity=".14"
+  />
+
+  <text
+    x="680"
+    y="272"
+    text-anchor="middle"
+    class="mono"
+    font-size="8"
+    font-weight="700"
+    fill="#CBD5E1"
+  >
+    PRODUCT
+  </text>
+
+
+  <!-- ====================================================== -->
+  <!-- REFLECTION                                             -->
+  <!-- ====================================================== -->
+
+  <g clip-path="url(#mainClip)">
+
+    <rect
+      class="reflection"
+      x="-125"
+      y="-60"
+      width="90"
+      height="420"
+      rx="28"
+      fill="url(#reflection)"
+      transform="rotate(13 0 0)"
+    />
+
+  </g>
+
+</svg>
