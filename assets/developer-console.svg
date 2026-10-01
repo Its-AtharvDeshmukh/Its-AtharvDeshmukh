@@ -665,11 +665,10 @@
   <!-- ARROW 1 -->
 
   <text
-    class="arrow"
     x="235"
     y="228"
     text-anchor="middle"
-    class="mono"
+    class="mono arrow"
     font-size="11"
     fill="#64748B"
   >
@@ -705,11 +704,10 @@
   <!-- ARROW 2 -->
 
   <text
-    class="arrow"
     x="385"
     y="228"
     text-anchor="middle"
-    class="mono"
+    class="mono arrow"
     font-size="11"
     fill="#64748B"
   >
@@ -745,11 +743,10 @@
   <!-- ARROW 3 -->
 
   <text
-    class="arrow"
     x="535"
     y="228"
     text-anchor="middle"
-    class="mono"
+    class="mono arrow"
     font-size="11"
     fill="#64748B"
   >
