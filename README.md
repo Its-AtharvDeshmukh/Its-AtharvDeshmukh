@@ -471,20 +471,9 @@ Backend development areas include:
 
 ## 📊 GitHub Snapshot
 
-<p align="center">
-
-<a
-  href="https://github.com/Its-AtharvDeshmukh"
-  title="Open my GitHub profile"
->
-  <img
-    src="./assets/github-snapshot.svg"
-    width="100%"
-    alt="Atharv Deshmukh — GitHub Snapshot"
-  />
-</a>
-
-</p>
+<div align="center">
+  <a href="https://github.com/Its-AtharvDeshmukh" title="Open my GitHub profile"><img src="./assets/github-snapshot.svg" width="100%" alt="Atharv Deshmukh — GitHub Snapshot"></a>
+</div>
 
 
 <!-- ================= MORE ACTIVITY ========================= -->
