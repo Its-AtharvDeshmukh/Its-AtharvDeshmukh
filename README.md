@@ -472,64 +472,29 @@ Backend development areas include:
 
 ## 📊 GitHub Snapshot
 
-<table>
-
-<tr>
-
-<td width="50%" align="center" valign="middle">
+<div align="center">
 
 <picture>
 
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-stats.vercel.app/api?username=Its-AtharvDeshmukh&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github&include_all_commits=true"
+    srcset="https://github-readme-stats.vercel.app/api?username=Its-AtharvDeshmukh&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=false&border_radius=16&bg_color=0D1117E6&border_color=30363D&title_color=67E8F9&text_color=C9D1D9&icon_color=A78BFA"
   />
 
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://github-readme-stats.vercel.app/api?username=Its-AtharvDeshmukh&show_icons=true&hide_border=true&theme=default&rank_icon=github&include_all_commits=true"
+    srcset="https://github-readme-stats.vercel.app/api?username=Its-AtharvDeshmukh&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=false&border_radius=16&bg_color=FFFFFFE8&border_color=D0D7DE&title_color=0969DA&text_color=24292F&icon_color=8250DF"
   />
 
   <img
-    width="100%"
-    src="https://github-readme-stats.vercel.app/api?username=Its-AtharvDeshmukh&show_icons=true&hide_border=true"
+    width="68%"
+    src="https://github-readme-stats.vercel.app/api?username=Its-AtharvDeshmukh&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=false&border_radius=16&theme=transparent"
     alt="GitHub Statistics"
   />
 
 </picture>
 
-</td>
-
-
-<td width="50%" align="center" valign="middle">
-
-<picture>
-
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Its-AtharvDeshmukh&layout=compact&hide_border=true&theme=github_dark&langs_count=6"
-  />
-
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Its-AtharvDeshmukh&layout=compact&hide_border=true&theme=default&langs_count=6"
-  />
-
-  <img
-    width="100%"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Its-AtharvDeshmukh&layout=compact&hide_border=true&langs_count=6"
-    alt="Top Languages"
-  />
-
-</picture>
-
-</td>
-
-</tr>
-
-</table>
-
-
+</div>
 <!-- ================= MORE ACTIVITY ========================= -->
 
 <details>
