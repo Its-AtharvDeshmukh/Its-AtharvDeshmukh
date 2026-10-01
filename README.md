@@ -1,39 +1,56 @@
+<!-- ========================================================= -->
+<!--                    ATHARV DESHMUKH                        -->
+<!--                  GITHUB PROFILE README                    -->
+<!-- ========================================================= -->
+
+
+<!-- ======================== HERO =========================== -->
+
 <p align="center">
   <img
     src="hero.svg"
-    alt="Atharv Deshmukh — full-stack engineer working on backend architecture, AI integration and HealthTech"
+    alt="Atharv Deshmukh — Full-Stack Engineering, AI Systems and HealthTech"
     width="100%"
-  >
+  />
 </p>
 
 
-### `Build with purpose. Improve with every version.`
+<!-- ================= MOTTO + SOCIALS ======================= -->
 
-<sub>— My development motto</sub>
+<p>
+  <code>Build with purpose. Improve with every version.</code>
 
+  <a href="https://leetcode.com/u/Atharv__Deshmukh/" title="LeetCode">
+    <img
+      align="right"
+      src="https://api.iconify.design/simple-icons:leetcode.svg?color=%23FFA116"
+      height="25"
+      width="25"
+      alt="LeetCode"
+    />
+  </a>
 
+  <a href="mailto:its.atharvdeshmukh@gmail.com" title="Email">
+    <img
+      align="right"
+      src="https://skillicons.dev/icons?i=gmail&theme=dark"
+      height="27"
+      width="27"
+      alt="Email"
+    />
+  </a>
 
-<!-- =================== SOCIAL ICONS ======================== -->
-
-<p align="center">
-<a href="https://www.linkedin.com/in/atharv-deshmukh-711909372/" title="LinkedIn"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" height="42" width="42" alt="LinkedIn"/></a>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="mailto:its.atharvdeshmukh@gmail.com" title="Email"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" height="42" width="42" alt="Email"/></a>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://leetcode.com/u/Atharv__Deshmukh/" title="LeetCode"><img src="https://api.iconify.design/simple-icons:leetcode.svg?color=%23FFA116" height="40" width="40" alt="LeetCode"/></a>
+  <a href="https://www.linkedin.com/in/atharv-deshmukh-711909372/" title="LinkedIn">
+    <img
+      align="right"
+      src="https://skillicons.dev/icons?i=linkedin&theme=dark"
+      height="27"
+      width="27"
+      alt="LinkedIn"
+    />
+  </a>
 </p>
-
-
-<!-- ================= PROFILE VISITS ======================== -->
-
-<p align="center">
-
-<img
-  src="https://visitor-badge.laobi.icu/badge?page_id=Its-AtharvDeshmukh.Its-AtharvDeshmukh&left_color=0F172A&right_color=0891B2&left_text=PROFILE%20VISITS"
-  alt="Profile Visits"
-/>
-
-</p>
+&nbsp;&nbsp;&nbsp;&nbsp;<sub>— My development motto</sub>
 
 
 <!-- ======================== ABOUT ========================== -->
@@ -44,7 +61,7 @@ Computer Engineering student **(B.Tech '27)** and full-stack developer focused o
 
 I work across **backend architecture, REST APIs, MongoDB, authentication, AI integrations, prompt engineering, intelligent workflows, and HealthTech systems**.
 
-Currently building and improving **HealthOrbit**, **MeshFlow**, and other full-stack projects while strengthening **DSA, prompt engineering, and system development**.
+Currently building and improving **HealthOrbit**, **MeshFlow**, and other full-stack projects while strengthening **DSA, backend engineering, prompt engineering, and system development**.
 
 
 <!-- ======================== STACK ========================== -->
@@ -53,14 +70,13 @@ Currently building and improving **HealthOrbit**, **MeshFlow**, and other full-s
 
 <div align="center">
 
-<img
-  src="https://skillicons.dev/icons?i=js,java,html,css,react,nodejs,express,mongodb,bootstrap,kotlin,androidstudio,gcp,git,github,githubactions,docker,kubernetes,npm,vscode,postman&perline=10&theme=dark"
-  alt="Technology Stack"
-/>
+  <img
+    src="https://skillicons.dev/icons?i=js,java,html,css,react,nodejs,express,mongodb,bootstrap,kotlin,androidstudio,gcp,git,github,githubactions,docker,kubernetes,npm,vscode,postman&perline=10&theme=dark"
+    alt="Technology Stack"
+  />
 
 </div>
 
-<br>
 
 <p align="center">
   <sub>
@@ -75,9 +91,9 @@ Currently building and improving **HealthOrbit**, **MeshFlow**, and other full-s
 
 | Project | Overview | Technology |
 |:---|:---|:---|
-| **[HealthOrbit](https://github.com/Its-AtharvDeshmukh/HealthOrbit)** | AI-powered personal health intelligence platform connecting medical records, OCR, wearable telemetry, health history, timelines, trends and context-aware AI assistance. | `Node.js` `Express` `MongoDB` `Kotlin` `Health Connect` `Gemini` |
-| **[MeshFlow&nbsp;X](https://github.com/Its-AtharvDeshmukh/MeshFlow)** | Intelligent multi-model AI operating system designed to orchestrate complex AI workflows through DAG-based routing, multiple LLM providers, structured execution pipelines and real-time telemetry. | `Node.js` `Express` `MongoDB` `OpenAI` `Gemini` |
-| **[Roavista](https://github.com/Its-AtharvDeshmukh/Roavista)** | Full-stack accommodation marketplace with secure authentication, property management, interactive Mapbox discovery, Google OAuth and Cloudinary-based media storage. | `Node.js` `Express` `MongoDB` `Passport.js` `Mapbox` `Cloudinary` |
+| **[HealthOrbit](https://github.com/Its-AtharvDeshmukh/HealthOrbit)** | AI-powered personal health intelligence platform connecting medical records, OCR, wearable telemetry, health history, timelines, trends, and context-aware AI assistance. | `Node.js` `Express` `MongoDB` `Kotlin` `Health Connect` `Gemini` |
+| **[MeshFlow](https://github.com/Its-AtharvDeshmukh/MeshFlow)** | Multi-model AI orchestration system designed around DAG-based workflow routing, multiple LLM providers, structured execution pipelines, and execution telemetry. | `Node.js` `Express` `MongoDB` `OpenAI` `Gemini` |
+| **[Roavista](https://github.com/Its-AtharvDeshmukh/Roavista)** | Full-stack accommodation marketplace with secure authentication, property management, interactive Mapbox discovery, Google OAuth, and Cloudinary-based media storage. | `Node.js` `Express` `MongoDB` `Passport.js` `Mapbox` `Cloudinary` |
 
 
 <details>
@@ -85,6 +101,7 @@ Currently building and improving **HealthOrbit**, **MeshFlow**, and other full-s
 <summary><strong>⚡ Explore project details</strong></summary>
 
 <br>
+
 
 ### 01 — HealthOrbit
 
@@ -131,11 +148,13 @@ It combines:
                                      HealthOrbit
 ```
 
+HealthOrbit is an information and assistance platform. Its AI features are designed to provide context and explanations, not autonomous diagnosis or prescribing.
+
 ---
 
-### 02 — MeshFlow X
+### 02 — MeshFlow
 
-**Intelligent Multi-Model AI Operating System**
+**Multi-Model AI Orchestration System**
 
 MeshFlow is designed as an AI orchestration system rather than a standard single-model chatbot.
 
@@ -154,7 +173,7 @@ It focuses on:
 - Intelligent model routing
 - Prompt engineering for structured AI instructions
 
-The purpose of MeshFlow is to create a controlled AI execution layer where different models and workflow stages can work together instead of sending every request directly to a single model.
+The goal is to create a controlled execution layer where multiple models and workflow stages can work together instead of sending every request directly to a single model.
 
 ---
 
@@ -185,7 +204,8 @@ It includes:
 
 <img
   width="100%"
-  src="https://capsule-render.vercel.app/api?type=rect&height=5&color=0:22D3EE,30:06B6D4,55:8B5CF6,78:14B8A6,100:22C55E"
+  src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:22D3EE,30:06B6D4,55:8B5CF6,78:14B8A6,100:22C55E"
+  alt=""
 />
 
 
@@ -194,68 +214,11 @@ It includes:
 ## ⚡ Experience & Recognition
 
 <p align="center">
-  <sub>Click a card to explore the related work or details.</sub>
-</p>
-
-<table>
-<tr>
-
-<td width="33%" align="center" valign="top">
-
-<a href="#hackathon-details" title="Open Hackathon 2026 details">
   <img
-    src="./assets/hackathon-card.svg"
+    src="./assets/experience-recognition.svg"
     width="100%"
-    alt="Hackathon 2026 — HealthOrbit with Team Fantastic 4"
+    alt="Atharv Deshmukh — Hackathon, Internship, Certifications and Engineering Focus"
   />
-</a>
-
-</td>
-
-<td width="33%" align="center" valign="top">
-
-<a href="https://github.com/Its-AtharvDeshmukh/OIBSIP" title="Open Oasis Infobyte internship projects">
-  <img
-    src="./assets/internship-card.svg"
-    width="100%"
-    alt="Oasis Infobyte — Web Development and Designing Internship"
-  />
-</a>
-
-</td>
-
-<td width="33%" align="center" valign="top">
-
-<a href="#certifications-learning" title="Open certifications and learning">
-  <img
-    src="./assets/certifications-card.svg"
-    width="100%"
-    alt="Certifications and technical learning"
-  />
-</a>
-
-</td>
-
-</tr>
-</table>
-
-
-<!-- ===================== QUICK FOCUS ======================= -->
-
-<p align="center">
-
-<code>HACKATHON</code>
-&nbsp; • &nbsp;
-<code>FULL-STACK</code>
-&nbsp; • &nbsp;
-<code>AI SYSTEMS</code>
-&nbsp; • &nbsp;
-<code>PROMPT ENGINEERING</code>
-&nbsp; • &nbsp;
-<code>HEALTHTECH</code>
-&nbsp; • &nbsp;
-<code>BACKEND</code>
-
 </p>
 
 
@@ -271,7 +234,7 @@ It includes:
 
 ### HealthOrbit at Hackathon 2026
 
-Participated in **Hackathon 2026** with **Team Fantastic 4**, presenting and demonstrating our healthcare project:
+Participated in **Hackathon 2026** with **Team Fantastic 4**, presenting and demonstrating:
 
 **HealthOrbit — Smart Personal Health Management & Emergency Detection**
 
@@ -288,19 +251,15 @@ During the hackathon, we demonstrated important parts of the platform including:
 
 ### Judge Feedback
 
-One of the most encouraging parts of the event was the **strong positive feedback from the judges**.
-
-They especially appreciated:
+The judges gave **strong positive feedback** and particularly appreciated:
 
 - the **project content**
 - the **frontend UI**
+- the project flow
 - the presentation of health information
 - the overall HealthOrbit concept
-- the direction of the project
 - the working implementation
 - the way different technologies were connected into one platform
-
-The judges responded very positively to how we combined **healthcare, software engineering, AI assistance, wearable integration, and a user-friendly interface** into one project.
 
 ### What I Learned
 
@@ -309,6 +268,7 @@ The hackathon gave our team practical experience in:
 - presenting a real technical product
 - explaining architecture clearly
 - demonstrating a live project
+- answering judge questions
 - working under time constraints
 - solving last-minute development issues
 - coordinating as a team
@@ -376,7 +336,7 @@ My AI-focused development includes:
 - Health context generation
 - Backend-controlled AI execution
 
-I use prompt engineering to create clear instructions, control context, improve structured outputs, and support reliable multi-stage AI workflows.
+I use prompt engineering to create clearer instructions, manage context, improve structured outputs, and support reliable multi-stage AI workflows.
 
 Main AI-oriented projects:
 
@@ -459,107 +419,70 @@ Backend development areas include:
 </details>
 
 
+<!-- ====================== DIVIDER ========================== -->
+
 <br>
 
 <img
   width="100%"
   src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:22C55E,30:14B8A6,55:06B6D4,75:8B5CF6,100:22D3EE"
+  alt=""
 />
 
 
-<!-- ======================= GITHUB ========================== -->
-
-## 📊 GitHub Snapshot
-
-<div align="center">
-  <a href="https://github.com/Its-AtharvDeshmukh" title="Open my GitHub profile"><img src="./assets/github-snapshot.svg" width="100%" alt="Atharv Deshmukh — GitHub Snapshot"></a>
-</div>
-
-
-<!-- ================= MORE ACTIVITY ========================= -->
+<!-- =============== MINIMAL DEVELOPER ACTIVITY ============= -->
 
 <details>
 
-<summary><strong>⚡ Open complete development activity</strong></summary>
+<summary>
+  <strong>⚡ Developer Activity</strong>
+  &nbsp;
+  <sub>GitHub · LeetCode · Current Focus</sub>
+</summary>
 
 <br>
 
-<table>
-
-<tr>
-
-<td width="50%" align="center">
-
-<picture>
-
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://streak-stats.demolab.com?user=Its-AtharvDeshmukh&theme=github-dark-blue&hide_border=true"
-  />
-
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://streak-stats.demolab.com?user=Its-AtharvDeshmukh&theme=default&hide_border=true"
-  />
-
-  <img
-    width="100%"
-    src="https://streak-stats.demolab.com?user=Its-AtharvDeshmukh&hide_border=true"
-    alt="GitHub Streak"
-  />
-
-</picture>
-
-</td>
-
-
-<td width="50%" align="center">
-
-<a href="https://leetcode.com/u/Atharv__Deshmukh/">
-
-<img
-  width="100%"
-  src="https://leetcard.jacoblin.cool/Atharv__Deshmukh?theme=transparent&font=JetBrains%20Mono"
-  alt="LeetCode Statistics"
-/>
-
-</a>
-
-</td>
-
-</tr>
-
-</table>
+<p align="center">
+  <a href="https://github.com/Its-AtharvDeshmukh"><strong>GitHub</strong></a>
+  &nbsp; • &nbsp;
+  <a href="https://leetcode.com/u/Atharv__Deshmukh/"><strong>LeetCode</strong></a>
+</p>
 
 <br>
 
-<div align="center">
 
-<img
-  width="100%"
-  src="https://github-readme-activity-graph.vercel.app/graph?username=Its-AtharvDeshmukh&bg_color=00000000&color=8B949E&line=22D3EE&point=8B5CF6&area=true&hide_border=true&custom_title=Contribution%20Activity"
-  alt="GitHub Contribution Activity"
-/>
+<!-- GITHUB SNAPSHOT — HIDDEN UNTIL OPENED -->
 
-</div>
+<p align="center">
+  <a
+    href="https://github.com/Its-AtharvDeshmukh"
+    title="Open my GitHub profile"
+  >X
+    <img
+      src="./assets/github-snapshot.svg"
+      width="100%"
+      alt="Atharv Deshmukh — GitHub Snapshot"
+    />
+  </a>
+</p>
 
-</details>
 
+<!-- CURRENT DEVELOPMENT CONSOLE — HIDDEN UNTIL OPENED -->
 
-<!-- ======================= CURRENT ========================= -->
-
-## Currently
+<br>
 
 <p align="center">
   <img
     src="./assets/developer-console.svg"
     width="100%"
-    alt="Atharv Deshmukh — current development focus and engineering workflow"
+    alt="Atharv Deshmukh — Current Development Focus and Engineering Workflow"
   />
 </p>
 
 
-<!-- ======================== END ============================ -->
+<!-- FOOTER VISUAL — HIDDEN UNTIL OPENED -->
+
+<br>
 
 <p align="center">
   <img
@@ -567,4 +490,23 @@ Backend development areas include:
     width="100%"
     alt="Atharv Deshmukh — Full-Stack, AI Systems, Prompt Engineering and HealthTech"
   />
+</p>
+
+</details>
+
+
+<!-- ================= MINIMAL ENDING ======================== -->
+
+<br>
+
+<p align="center">
+  <sub>
+    <code>BUILD</code>
+    &nbsp;→&nbsp;
+    <code>TEST</code>
+    &nbsp;→&nbsp;
+    <code>SHIP</code>
+    &nbsp;→&nbsp;
+    <code>IMPROVE</code>
+  </sub>
 </p>
