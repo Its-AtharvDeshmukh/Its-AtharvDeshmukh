@@ -1,0 +1,376 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 420 230"
+     width="420"
+     height="230"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">Hackathon 2026 — HealthOrbit</title>
+  <desc id="desc">
+    HealthOrbit presented by Team Fantastic 4 at Hackathon 2026.
+    Judges appreciated the UI, project flow and presentation.
+  </desc>
+
+  <defs>
+
+    <!-- MAIN BACKGROUND -->
+    <linearGradient id="bgHack" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111F"/>
+      <stop offset="52%" stop-color="#0A1627"/>
+      <stop offset="100%" stop-color="#060B13"/>
+    </linearGradient>
+
+    <!-- BORDER -->
+    <linearGradient id="borderHack" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="48%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <!-- TOP LABEL -->
+    <linearGradient id="labelHack" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0891B2"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+
+    <!-- CYAN BACKGROUND GLOW -->
+    <radialGradient id="cyanGlowHack"
+                    cx="12%"
+                    cy="88%"
+                    r="76%">
+      <stop offset="0%"
+            stop-color="#22D3EE"
+            stop-opacity=".18"/>
+      <stop offset="100%"
+            stop-color="#22D3EE"
+            stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- VIOLET BACKGROUND GLOW -->
+    <radialGradient id="violetGlowHack"
+                    cx="88%"
+                    cy="12%"
+                    r="72%">
+      <stop offset="0%"
+            stop-color="#8B5CF6"
+            stop-opacity=".22"/>
+      <stop offset="100%"
+            stop-color="#8B5CF6"
+            stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- GLASS REFLECTION -->
+    <linearGradient id="reflectionHack"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="0">
+
+      <stop offset="0%"
+            stop-color="#FFFFFF"
+            stop-opacity="0"/>
+
+      <stop offset="35%"
+            stop-color="#FFFFFF"
+            stop-opacity=".03"/>
+
+      <stop offset="50%"
+            stop-color="#FFFFFF"
+            stop-opacity=".20"/>
+
+      <stop offset="65%"
+            stop-color="#FFFFFF"
+            stop-opacity=".05"/>
+
+      <stop offset="100%"
+            stop-color="#FFFFFF"
+            stop-opacity="0"/>
+
+    </linearGradient>
+
+    <!-- CARD CLIP -->
+    <clipPath id="hackClip">
+      <rect
+        x="10"
+        y="10"
+        width="400"
+        height="210"
+        rx="24"
+      />
+    </clipPath>
+
+    <!-- SOFT SHADOW -->
+    <filter id="shadowHack"
+            x="-20%"
+            y="-20%"
+            width="140%"
+            height="150%">
+      <feDropShadow
+        dx="0"
+        dy="8"
+        stdDeviation="11"
+        flood-color="#000000"
+        flood-opacity=".32"
+      />
+    </filter>
+
+    <!-- SOFT GLOW -->
+    <filter id="softBlurHack"
+            x="-30%"
+            y="-30%"
+            width="160%"
+            height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+  </defs>
+
+
+  <!-- ================================================== -->
+  <!-- CARD -->
+  <!-- ================================================== -->
+
+  <rect
+    x="10"
+    y="10"
+    width="400"
+    height="210"
+    rx="24"
+    fill="url(#bgHack)"
+    stroke="url(#borderHack)"
+    stroke-width="1.4"
+    stroke-opacity=".68"
+    filter="url(#shadowHack)"
+  />
+
+  <rect
+    x="10"
+    y="10"
+    width="400"
+    height="210"
+    rx="24"
+    fill="url(#cyanGlowHack)"
+  />
+
+  <rect
+    x="10"
+    y="10"
+    width="400"
+    height="210"
+    rx="24"
+    fill="url(#violetGlowHack)"
+  />
+
+
+  <!-- ================================================== -->
+  <!-- SOFT DECORATIVE GLOWS -->
+  <!-- ================================================== -->
+
+  <g clip-path="url(#hackClip)">
+
+    <circle
+      cx="365"
+      cy="42"
+      r="58"
+      fill="#7C3AED"
+      fill-opacity=".12"
+      filter="url(#softBlurHack)"
+    />
+
+    <circle
+      cx="45"
+      cy="205"
+      r="65"
+      fill="#06B6D4"
+      fill-opacity=".10"
+      filter="url(#softBlurHack)"
+    />
+
+  </g>
+
+
+  <!-- ================================================== -->
+  <!-- MOVING GLASS REFLECTION -->
+  <!-- ================================================== -->
+
+  <g clip-path="url(#hackClip)">
+
+    <rect
+      x="-150"
+      y="-35"
+      width="92"
+      height="310"
+      rx="24"
+      fill="url(#reflectionHack)"
+      transform="rotate(15 0 0)"
+      opacity=".92">
+
+      <animate
+        attributeName="x"
+        values="-170;500"
+        dur="4.8s"
+        repeatCount="indefinite"
+      />
+
+    </rect>
+
+  </g>
+
+
+  <!-- ================================================== -->
+  <!-- LABEL -->
+  <!-- ================================================== -->
+
+  <rect
+    x="28"
+    y="28"
+    width="126"
+    height="26"
+    rx="13"
+    fill="url(#labelHack)"
+  />
+
+  <text
+    x="91"
+    y="45"
+    text-anchor="middle"
+    font-family="Inter,Segoe UI,Arial,sans-serif"
+    font-size="10.5"
+    font-weight="700"
+    letter-spacing=".9"
+    fill="#FFFFFF">
+    HACKATHON 2026
+  </text>
+
+
+  <!-- ================================================== -->
+  <!-- STATUS ICON -->
+  <!-- ================================================== -->
+
+  <circle
+    cx="377"
+    cy="41"
+    r="13"
+    fill="#22C55E"
+    fill-opacity=".12"
+    stroke="#22C55E"
+    stroke-opacity=".58"
+  />
+
+  <path
+    d="M371.5 41.3l3.5 3.5 7-8"
+    fill="none"
+    stroke="#86EFAC"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+
+  <!-- ================================================== -->
+  <!-- TITLE -->
+  <!-- ================================================== -->
+
+  <text
+    x="28"
+    y="86"
+    font-family="Inter,Segoe UI,Arial,sans-serif"
+    font-size="23"
+    font-weight="700"
+    fill="#F8FAFC">
+    HealthOrbit × Fantastic 4
+  </text>
+
+  <text
+    x="28"
+    y="108"
+    font-family="Inter,Segoe UI,Arial,sans-serif"
+    font-size="12.5"
+    font-weight="500"
+    fill="#CBD5E1">
+    Smart Personal Health Management &amp; Emergency Detection
+  </text>
+
+
+  <!-- ================================================== -->
+  <!-- FEEDBACK BLOCK -->
+  <!-- ================================================== -->
+
+  <text
+    x="28"
+    y="139"
+    font-family="JetBrains Mono,Consolas,monospace"
+    font-size="10"
+    font-weight="700"
+    letter-spacing=".7"
+    fill="#67E8F9">
+    JUDGES APPRECIATED
+  </text>
+
+  <circle cx="32" cy="158" r="3.2" fill="#22D3EE"/>
+
+  <text
+    x="43"
+    y="162"
+    font-family="Inter,Segoe UI,Arial,sans-serif"
+    font-size="12"
+    fill="#DCE7F5">
+    Frontend UI
+  </text>
+
+  <circle cx="145" cy="158" r="3.2" fill="#8B5CF6"/>
+
+  <text
+    x="156"
+    y="162"
+    font-family="Inter,Segoe UI,Arial,sans-serif"
+    font-size="12"
+    fill="#DCE7F5">
+    Project Flow
+  </text>
+
+  <circle cx="266" cy="158" r="3.2" fill="#22C55E"/>
+
+  <text
+    x="277"
+    y="162"
+    font-family="Inter,Segoe UI,Arial,sans-serif"
+    font-size="12"
+    fill="#DCE7F5">
+    Presentation
+  </text>
+
+
+  <!-- ================================================== -->
+  <!-- CERTIFICATE -->
+  <!-- ================================================== -->
+
+  <rect
+    x="28"
+    y="182"
+    width="214"
+    height="25"
+    rx="12.5"
+    fill="#22C55E"
+    fill-opacity=".08"
+    stroke="#22C55E"
+    stroke-opacity=".30"
+  />
+
+  <circle
+    cx="42"
+    cy="194.5"
+    r="3.4"
+    fill="#22C55E"
+  />
+
+  <text
+    x="53"
+    y="198"
+    font-family="JetBrains Mono,Consolas,monospace"
+    font-size="10.2"
+    fill="#A7F3D0">
+    Certificate of Participation
+  </text>
+
+</svg>
