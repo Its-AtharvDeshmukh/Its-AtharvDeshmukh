@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 760 250"
+  width="760"
+  height="250"
+  role="img"
+  aria-labelledby="title description"
+>
+
+  <title id="title">Atharv Deshmukh — GitHub Snapshot</title>
+
+  <desc id="description">
+    GitHub profile snapshot showing Atharv Deshmukh's flagship repositories,
+    engineering areas, development practice, and GitHub profile.
+  </desc>
+
+
+  <defs>
+
+    <!-- ================================================== -->
+    <!-- BACKGROUND                                         -->
+    <!-- ================================================== -->
+
+    <linearGradient
+      id="background"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="1"
+    >
+      <stop offset="0%" stop-color="#07111F"/>
+      <stop offset="50%" stop-color="#0A1627"/>
+      <stop offset="100%" stop-color="#060B13"/>
+    </linearGradient>
+
+
+    <!-- ================================================== -->
+    <!-- MAIN BORDER                                        -->
+    <!-- ================================================== -->
+
+    <linearGradient
+      id="mainBorder"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="0"
+    >
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity=".65"/>
+      <stop offset="36%" stop-color="#0891B2" stop-opacity=".72"/>
+      <stop offset="66%" stop-color="#8B5CF6" stop-opacity=".78"/>
+      <stop offset="100%" stop-color="#22C55E" stop-opacity=".60"/>
+    </linearGradient>
+
+
+    <!-- ================================================== -->
+    <!-- TOP ACCENT                                         -->
+    <!-- ================================================== -->
+
+    <linearGradient
+      id="accent"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="0"
+    >
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="34%" stop-color="#06B6D4"/>
+      <stop offset="66%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22C55E"/>
+    </linearGradient>
+
+
+    <!-- ================================================== -->
+    <!-- GLOWS                                              -->
+    <!-- ================================================== -->
+
+    <radialGradient
+      id="cyanGlow"
+      cx="88%"
+      cy="5%"
+      r="58%"
+    >
+      <stop
+        offset="0%"
+        stop-color="#22D3EE"
+        stop-opacity=".16"
+      />
+
+      <stop
+        offset="100%"
+        stop-color="#22D3EE"
+        stop-opacity="0"
+      />
+    </radialGradient>
+
+
+    <radialGradient
+      id="violetGlow"
+      cx="8%"
+      cy="100%"
+      r="62%"
+    >
+      <stop
+        offset="0%"
+        stop-color="#8B5CF6"
+        stop-opacity=".15"
+      />
+
+      <stop
+        offset="100%"
+        stop-color="#8B5CF6"
+        stop-opacity="0"
+      />
+    </radialGradient>
+
+
+    <!-- ================================================== -->
+    <!-- PANEL BACKGROUND                                   -->
+    <!-- ================================================== -->
+
+    <linearGradient
+      id="panelBackground"
+      x1="0"
+      y1="0"
+      x2="0"
+      y2="1"
+    >
+      <stop
+        offset="0%"
+        stop-color="#FFFFFF"
+        stop-opacity=".045"
+      />
+
+      <stop
+        offset="100%"
+        stop-color="#FFFFFF"
+        stop-opacity=".018"
+      />
+    </linearGradient>
+
+
+    <!-- ================================================== -->
+    <!-- REFLECTION                                         -->
+    <!-- ================================================== -->
+
+    <linearGradient
+      id="reflection"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="0"
+    >
+      <stop
+        offset="0%"
+        stop-color="#FFFFFF"
+        stop-opacity="0"
+      />
+
+      <stop
+        offset="38%"
+        stop-color="#FFFFFF"
+        stop-opacity=".018"
+      />
+
+      <stop
+        offset="50%"
+        stop-color="#FFFFFF"
+        stop-opacity=".14"
+      />
+
+      <stop
+        offset="62%"
+        stop-color="#FFFFFF"
+        stop-opacity=".025"
+      />
+
+      <stop
+        offset="100%"
+        stop-color="#FFFFFF"
+        stop-opacity="0"
+      />
+    </linearGradient>
+
+
+    <!-- ================================================== -->
+    <!-- CLIPPING                                           -->
+    <!-- ================================================== -->
+
+    <clipPath id="cardClip">
+      <rect
+        x="10"
+        y="10"
+        width="740"
+        height="230"
+        rx="24"
+      />
+    </clipPath>
+
+
+    <!-- ================================================== -->
+    <!-- SOFT BLUR                                          -->
+    <!-- ================================================== -->
+
+    <filter
+      id="softBlur"
+      x="-50%"
+      y="-50%"
+      width="200%"
+      height="200%"
+    >
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+
+
+    <!-- ================================================== -->
+    <!-- TEXT / ANIMATION                                   -->
+    <!-- ================================================== -->
+
+    <style>
+
+      .sans {
+        font-family:
+          Inter,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Arial,
+          sans-serif;
+      }
+
+      .mono {
+        font-family:
+          "JetBrains Mono",
+          "SFMono-Regular",
+          Consolas,
+          "Liberation Mono",
+          monospace;
+      }
+
+
+      .status-dot {
+        animation:
+          statusPulse
+          2.4s
+          ease-in-out
+          infinite;
+      }
+
+      @keyframes statusPulse {
+
+        0%,
+        100% {
+          opacity: .45;
+        }
+
+        50% {
+          opacity: 1;
+        }
+
+      }
+
+
+      .repo-dot-1 {
+        animation:
+          repoPulse
+          3s
+          ease-in-out
+          infinite;
+      }
+
+      .repo-dot-2 {
+        animation:
+          repoPulse
+          3s
+          .35s
+          ease-in-out
+          infinite;
+      }
+
+      .repo-dot-3 {
+        animation:
+          repoPulse
+          3s
+          .7s
+          ease-in-out
+          infinite;
+      }
+
+      @keyframes repoPulse {
+
+        0%,
+        100% {
+          opacity: .50;
+        }
+
+        50% {
+          opacity: 1;
+        }
+
+      }
+
+
+      .flow-line {
+        stroke-dasharray: 3 7;
+
+        animation:
+          lineFlow
+          2.1s
+          linear
+          infinite;
+      }
+
+      @keyframes lineFlow {
+
+        to {
+          stroke-dashoffset: -20;
+        }
+
+      }
+
+
+      .reflection {
+        animation:
+          reflectionSweep
+          7.5s
+          cubic-bezier(.4,0,.2,1)
+          infinite;
+      }
+
+      @keyframes reflectionSweep {
+
+        0% {
+          transform: translateX(-180px);
+          opacity: 0;
+        }
+
+        12% {
+          opacity: .90;
+        }
+
+        72% {
+          opacity: .90;
+        }
+
+        86% {
+          opacity: 0;
+        }
+
+        100% {
+          transform: translateX(1000px);
+          opacity: 0;
+        }
+
+      }
+
+
+      @media (prefers-reduced-motion: reduce) {
+
+        .status-dot,
+        .repo-dot-1,
+        .repo-dot-2,
+        .repo-dot-3,
+        .flow-line,
+        .reflection {
+          animation: none !important;
+        }
+
+      }
+
+    </style>
+
+  </defs>
+
+
+  <!-- ====================================================== -->
+  <!-- MAIN CARD                                              -->
+  <!-- ====================================================== -->
+
+  <rect
+    x="10"
+    y="10"
+    width="740"
+    height="230"
+    rx="24"
+    fill="url(#background)"
+    stroke="url(#mainBorder)"
+    stroke-width="1.35"
+  />
+
+
+  <!-- BACKGROUND COLOR DEPTH -->
+
+  <rect
+    x="10"
+    y="10"
+    width="740"
+    height="230"
+    rx="24"
+    fill="url(#cyanGlow)"
+  />
+
+
+  <rect
+    x="10"
+    y="10"
+    width="740"
+    height="230"
+    rx="24"
+    fill="url(#violetGlow)"
+  />
+
+
+  <!-- DECORATIVE GLOWS -->
+
+  <g clip-path="url(#cardClip)">
+
+    <circle
+      cx="690"
+      cy="30"
+      r="78"
+      fill="#22D3EE"
+      fill-opacity=".07"
+      filter="url(#softBlur)"
+    />
+
+
+    <circle
+      cx="55"
+      cy="235"
+      r="90"
+      fill="#8B5CF6"
+      fill-opacity=".08"
+      filter="url(#softBlur)"
+    />
+
+  </g>
+
+
+  <!-- ====================================================== -->
+  <!-- MOVING GLASS REFLECTION                                -->
+  <!-- ====================================================== -->
+
+  <g clip-path="url(#cardClip)">
+
+    <g class="reflection">
+
+      <g transform="rotate(14 -70 120)">
+
+        <rect
+          x="-130"
+          y="-100"
+          width="100"
+          height="440"
+          rx="30"
+          fill="url(#reflection)"
+        />
+
+      </g>
+
+    </g>
+
+  </g>
+
+
+  <!-- ====================================================== -->
+  <!-- HEADER                                                 -->
+  <!-- ====================================================== -->
+
+  <rect
+    x="10"
+    y="10"
+    width="740"
+    height="3"
+    rx="1.5"
+    fill="url(#accent)"
+    opacity=".92"
+  />
+
+
+  <text
+    x="34"
+    y="43"
+    class="mono"
+    font-size="12"
+    font-weight="700"
+    letter-spacing="1.3"
+    fill="#67E8F9"
+  >
+    GITHUB SNAPSHOT
+  </text>
+
+
+  <text
+    x="34"
+    y="61"
+    class="sans"
+    font-size="10.5"
+    fill="#64748B"
+  >
+    Projects, engineering signals and development practice
+  </text>
+
+
+  <!-- PROFILE STATUS -->
+
+  <rect
+    x="615"
+    y="29"
+    width="109"
+    height="27"
+    rx="13.5"
+    fill="#22C55E"
+    fill-opacity=".07"
+    stroke="#22C55E"
+    stroke-opacity=".25"
+  />
+
+
+  <circle
+    class="status-dot"
+    cx="631"
+    cy="42.5"
+    r="3.7"
+    fill="#22C55E"
+  />
+
+
+  <text
+    x="642"
+    y="46"
+    class="mono"
+    font-size="9"
+    font-weight="700"
+    fill="#A7F3D0"
+  >
+    PUBLIC PROFILE
+  </text>
+
+
+  <!-- HEADER DIVIDER -->
+
+  <line
+    x1="34"
+    y1="73"
+    x2="726"
+    y2="73"
+    stroke="#FFFFFF"
+    stroke-opacity=".07"
+  />
+
+
+  <!-- ====================================================== -->
+  <!-- LEFT PANEL                                             -->
+  <!-- ====================================================== -->
+
+  <rect
+    x="34"
+    y="87"
+    width="424"
+    height="125"
+    rx="17"
+    fill="url(#panelBackground)"
+    stroke="#FFFFFF"
+    stroke-opacity=".07"
+  />
+
+
+  <text
+    x="54"
+    y="109"
+    class="mono"
+    font-size="9.5"
+    font-weight="700"
+    letter-spacing=".8"
+    fill="#94A3B8"
+  >
+    FLAGSHIP REPOSITORIES
+  </text>
+
+
+  <!-- HEALTHORBIT -->
+
+  <circle
+    class="repo-dot-1"
+    cx="58"
+    cy="135"
+    r="4"
+    fill="#22D3EE"
+  />
+
+
+  <text
+    x="72"
+    y="139"
+    class="sans"
+    font-size="13"
+    font-weight="650"
+    fill="#F8FAFC"
+  >
+    HealthOrbit
+  </text>
+
+
+  <text
+    x="175"
+    y="139"
+    class="mono"
+    font-size="9.5"
+    fill="#8FA6BC"
+  >
+    HealthTech · AI · Wearables
+  </text>
+
+
+  <!-- MESHFLOW -->
+
+  <circle
+    class="repo-dot-2"
+    cx="58"
+    cy="166"
+    r="4"
+    fill="#A78BFA"
+  />
+
+
+  <text
+    x="72"
+    y="170"
+    class="sans"
+    font-size="13"
+    font-weight="650"
+    fill="#F8FAFC"
+  >
+    MeshFlow
+  </text>
+
+
+  <text
+    x="175"
+    y="170"
+    class="mono"
+    font-size="9.5"
+    fill="#8FA6BC"
+  >
+    Multi-model AI · DAG Workflows
+  </text>
+
+
+  <!-- ROAVISTA -->
+
+  <circle
+    class="repo-dot-3"
+    cx="58"
+    cy="197"
+    r="4"
+    fill="#22C55E"
+  />
+
+
+  <text
+    x="72"
+    y="201"
+    class="sans"
+    font-size="13"
+    font-weight="650"
+    fill="#F8FAFC"
+  >
+    Roavista
+  </text>
+
+
+  <text
+    x="175"
+    y="201"
+    class="mono"
+    font-size="9.5"
+    fill="#8FA6BC"
+  >
+    Full-Stack · Maps · Cloud
+  </text>
+
+
+  <!-- ====================================================== -->
+  <!-- RIGHT PANEL                                            -->
+  <!-- ====================================================== -->
+
+  <rect
+    x="474"
+    y="87"
+    width="252"
+    height="125"
+    rx="17"
+    fill="url(#panelBackground)"
+    stroke="#FFFFFF"
+    stroke-opacity=".07"
+  />
+
+
+  <text
+    x="494"
+    y="109"
+    class="mono"
+    font-size="9.5"
+    font-weight="700"
+    letter-spacing=".8"
+    fill="#94A3B8"
+  >
+    PROFILE SIGNALS
+  </text>
+
+
+  <!-- HANDLE -->
+
+  <text
+    x="494"
+    y="137"
+    class="mono"
+    font-size="10"
+    fill="#64748B"
+  >
+    PROFILE
+  </text>
+
+
+  <text
+    x="555"
+    y="137"
+    class="mono"
+    font-size="10.5"
+    font-weight="700"
+    fill="#67E8F9"
+  >
+    @Its-AtharvDeshmukh
+  </text>
+
+
+  <!-- FOCUS -->
+
+  <text
+    x="494"
+    y="164"
+    class="mono"
+    font-size="10"
+    fill="#64748B"
+  >
+    FOCUS
+  </text>
+
+
+  <text
+    x="555"
+    y="164"
+    class="sans"
+    font-size="10.5"
+    fill="#D8E3EF"
+  >
+    Backend · AI · HealthTech
+  </text>
+
+
+  <!-- PRACTICE -->
+
+  <text
+    x="494"
+    y="191"
+    class="mono"
+    font-size="10"
+    fill="#64748B"
+  >
+    PRACTICE
+  </text>
+
+
+  <text
+    x="555"
+    y="191"
+    class="sans"
+    font-size="10.5"
+    fill="#D8E3EF"
+  >
+    Java · DSA · Systems
+  </text>
+
+
+  <!-- ====================================================== -->
+  <!-- BOTTOM LINK SIGNAL                                     -->
+  <!-- ====================================================== -->
+
+  <line
+    class="flow-line"
+    x1="275"
+    y1="227"
+    x2="485"
+    y2="227"
+    stroke="url(#accent)"
+    stroke-width="1.2"
+    stroke-opacity=".58"
+  />
+
+
+  <circle
+    cx="275"
+    cy="227"
+    r="2.5"
+    fill="#22D3EE"
+  />
+
+
+  <circle
+    cx="485"
+    cy="227"
+    r="2.5"
+    fill="#22C55E"
+  />
+
+</svg>
