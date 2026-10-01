@@ -48,7 +48,7 @@
     />
   </a>
 </p>
-&nbsp;&nbsp;&nbsp;&nbsp;<sub>— My development motto</sub>
+&nbsp;&nbsp;&nbsp;<sub>— My development motto</sub>
 
 
 <!-- ======================== ABOUT ========================== -->
