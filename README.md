@@ -35,8 +35,6 @@
 
 </p>
 
-</div>
-
 
 <!-- ======================== ABOUT ========================== -->
 
@@ -44,9 +42,9 @@
 
 Computer Engineering student **(B.Tech '27)** and full-stack developer focused on building practical, scalable software products.
 
-I work across **backend architecture, REST APIs, MongoDB, authentication, AI integrations, intelligent workflows, and HealthTech systems**.
+I work across **backend architecture, REST APIs, MongoDB, authentication, AI integrations, prompt engineering, intelligent workflows, and HealthTech systems**.
 
-Currently building and improving **HealthOrbit**, **MeshFlow**, and other full-stack projects while strengthening **DSA and system development**.
+Currently building and improving **HealthOrbit**, **MeshFlow**, and other full-stack projects while strengthening **DSA, prompt engineering, and system development**.
 
 
 <!-- ======================== STACK ========================== -->
@@ -66,7 +64,7 @@ Currently building and improving **HealthOrbit**, **MeshFlow**, and other full-s
 
 <p align="center">
   <sub>
-    Web Development • Backend Engineering • Android • Cloud • DevOps • APIs • AI Integration
+    Web Development • Backend Engineering • Android • Cloud • DevOps • APIs • AI Integration • Prompt Engineering
   </sub>
 </p>
 
@@ -154,6 +152,7 @@ It focuses on:
 - Workflow-level observability
 - Multiple LLM provider integrations
 - Intelligent model routing
+- Prompt engineering for structured AI instructions
 
 The purpose of MeshFlow is to create a controlled AI execution layer where different models and workflow stages can work together instead of sending every request directly to a single model.
 
@@ -194,61 +193,51 @@ It includes:
 
 ## ⚡ Experience & Recognition
 
-<div align="center">
+<p align="center">
+  <sub>Click a card to explore the related work or details.</sub>
+</p>
 
 <table>
-
 <tr>
 
 <td width="33%" align="center" valign="top">
 
-### 🏆 Hackathon
-
-**Hackathon 2026**
-
-**HealthOrbit**
-
-Team: **Fantastic 4**
-
-The judges gave **strong positive feedback** and especially appreciated our **project content, frontend UI, presentation, overall concept, and working implementation**.
-
-`Presentation` `Prototype` `Judge Appreciation`
+<a href="#hackathon-details" title="Open Hackathon 2026 details">
+  <img
+    src="./assets/hackathon-card.svg"
+    width="100%"
+    alt="Hackathon 2026 — HealthOrbit with Team Fantastic 4"
+  />
+</a>
 
 </td>
 
-
 <td width="33%" align="center" valign="top">
 
-### 💼 Experience
-
-**Oasis Infobyte**
-
-Web Development & Designing Internship
-
-`Frontend` `Full-Stack` `Project Work`
+<a href="https://github.com/Its-AtharvDeshmukh/OIBSIP" title="Open Oasis Infobyte internship projects">
+  <img
+    src="./assets/internship-card.svg"
+    width="100%"
+    alt="Oasis Infobyte — Web Development and Designing Internship"
+  />
+</a>
 
 </td>
 
-
 <td width="33%" align="center" valign="top">
 
-### 🎓 Certifications
-
-**Technical Learning**
-
-Sigma 7 — MERN
-
-DSA in Java
-
-Hackathon 2026 — Participation Certificate
+<a href="#certifications-learning" title="Open certifications and learning">
+  <img
+    src="./assets/certifications-card.svg"
+    width="100%"
+    alt="Certifications and technical learning"
+  />
+</a>
 
 </td>
 
 </tr>
-
 </table>
-
-</div>
 
 
 <!-- ===================== QUICK FOCUS ======================= -->
@@ -261,6 +250,8 @@ Hackathon 2026 — Participation Certificate
 &nbsp; • &nbsp;
 <code>AI SYSTEMS</code>
 &nbsp; • &nbsp;
+<code>PROMPT ENGINEERING</code>
+&nbsp; • &nbsp;
 <code>HEALTHTECH</code>
 &nbsp; • &nbsp;
 <code>BACKEND</code>
@@ -269,6 +260,8 @@ Hackathon 2026 — Participation Certificate
 
 
 <!-- ===================== HACKATHON ========================= -->
+
+<a id="hackathon-details"></a>
 
 <details>
 
@@ -365,7 +358,7 @@ Projects using these concepts include:
 
 <details>
 
-<summary><strong>🤖 AI Systems</strong></summary>
+<summary><strong>🤖 AI Systems & Prompt Engineering</strong></summary>
 
 <br>
 
@@ -373,6 +366,8 @@ My AI-focused development includes:
 
 - OpenAI API integration
 - Google Gemini integration
+- Prompt engineering
+- Structured prompt design
 - Context-aware AI systems
 - Multi-model workflows
 - Structured AI pipelines
@@ -380,6 +375,8 @@ My AI-focused development includes:
 - AI-assisted document interpretation
 - Health context generation
 - Backend-controlled AI execution
+
+I use prompt engineering to create clear instructions, control context, improve structured outputs, and support reliable multi-stage AI workflows.
 
 Main AI-oriented projects:
 
@@ -444,6 +441,8 @@ Backend development areas include:
 
 <!-- ================= CERTIFICATIONS ======================== -->
 
+<a id="certifications-learning"></a>
+
 <details>
 
 <summary><strong>🎓 Certifications & Learning</strong></summary>
@@ -472,29 +471,22 @@ Backend development areas include:
 
 ## 📊 GitHub Snapshot
 
-<div align="center">
+<p align="center">
 
-<picture>
-
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-stats.vercel.app/api?username=Its-AtharvDeshmukh&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=false&border_radius=16&bg_color=0D1117E6&border_color=30363D&title_color=67E8F9&text_color=C9D1D9&icon_color=A78BFA"
-  />
-
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://github-readme-stats.vercel.app/api?username=Its-AtharvDeshmukh&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=false&border_radius=16&bg_color=FFFFFFE8&border_color=D0D7DE&title_color=0969DA&text_color=24292F&icon_color=8250DF"
-  />
-
+<a
+  href="https://github.com/Its-AtharvDeshmukh"
+  title="Open my GitHub profile"
+>
   <img
-    width="68%"
-    src="https://github-readme-stats.vercel.app/api?username=Its-AtharvDeshmukh&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=false&border_radius=16&theme=transparent"
-    alt="GitHub Statistics"
+    src="./assets/github-snapshot.svg"
+    width="100%"
+    alt="Atharv Deshmukh — GitHub Snapshot"
   />
+</a>
 
-</picture>
+</p>
 
-</div>
+
 <!-- ================= MORE ACTIVITY ========================= -->
 
 <details>
@@ -569,59 +561,21 @@ Backend development areas include:
 
 ## Currently
 
-<div align="center">
-
-<img
-  src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=15&duration=2800&pause=1100&color=22C55E&center=true&vCenter=true&width=760&lines=Improving+HealthOrbit+%26+wearable+integration;Building+intelligent+AI+workflows;Strengthening+backend+architecture;Practicing+DSA+in+Java;Turning+ideas+into+deployable+products"
-  alt="Current Development Focus"
-/>
-
-<br>
-
 <p align="center">
-<code>BUILD</code>
-&nbsp;→&nbsp;
-<code>TEST</code>
-&nbsp;→&nbsp;
-<code>SHIP</code>
-&nbsp;→&nbsp;
-<code>IMPROVE</code>
+  <img
+    src="./assets/developer-console.svg"
+    width="100%"
+    alt="Atharv Deshmukh — current development focus and engineering workflow"
+  />
 </p>
-
-</div>
 
 
 <!-- ======================== END ============================ -->
 
-<div align="center">
-
-<br>
-
-### `Build with purpose. Improve with every version.`
-
-<sub>
-Full-Stack Engineering · AI Systems · HealthTech · Product Development
-</sub>
-
-
-<picture>
-
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://capsule-render.vercel.app/api?type=venom&height=90&section=footer&color=0:020617,30:0E7490,60:7C3AED,85:0891B2,100:020617"
-  />
-
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://capsule-render.vercel.app/api?type=venom&height=90&section=footer&color=0:F8FAFC,25:22D3EE,52:8B5CF6,75:14B8A6,100:F8FAFC"
-  />
-
+<p align="center">
   <img
+    src="./assets/footer.svg"
     width="100%"
-    src="https://capsule-render.vercel.app/api?type=venom&height=90&section=footer&color=0:020617,30:0E7490,60:7C3AED,85:0891B2,100:020617"
-    alt=""
+    alt="Atharv Deshmukh — Full-Stack, AI Systems, Prompt Engineering and HealthTech"
   />
-
-</picture>
-
-</div>
+</p>
