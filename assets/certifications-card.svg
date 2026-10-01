@@ -1,126 +1,368 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 420 230"
+     width="420"
+     height="230"
+     role="img"
+     aria-labelledby="title desc">
+
   <title id="title">Certifications and Learning</title>
-  <desc id="desc">Learning milestones including MERN, DSA in Java, and hackathon participation.</desc>
+  <desc id="desc">
+    Full-Stack MERN, Data Structures and Algorithms in Java,
+    and Hackathon 2026 participation.
+  </desc>
 
   <defs>
-    <linearGradient id="bgCert" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#07111f"/>
-      <stop offset="55%" stop-color="#0a1627"/>
-      <stop offset="100%" stop-color="#08101c"/>
+
+    <linearGradient id="bgCert"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="1">
+      <stop offset="0%" stop-color="#07111F"/>
+      <stop offset="52%" stop-color="#0A1627"/>
+      <stop offset="100%" stop-color="#060B13"/>
     </linearGradient>
 
-    <linearGradient id="strokeCert" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.9"/>
-      <stop offset="50%" stop-color="#c084fc" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#22c55e" stop-opacity="0.9"/>
+    <linearGradient id="borderCert"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="0">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="52%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#22C55E"/>
     </linearGradient>
 
-    <linearGradient id="tagCert" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8b5cf6"/>
-      <stop offset="100%" stop-color="#22c55e"/>
+    <linearGradient id="labelCert"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="0">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#16A34A"/>
     </linearGradient>
 
-    <radialGradient id="glowCert1" cx="82%" cy="12%" r="70%">
-      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    <radialGradient id="violetGlowCert"
+                    cx="88%"
+                    cy="12%"
+                    r="72%">
+      <stop offset="0%"
+            stop-color="#8B5CF6"
+            stop-opacity=".20"/>
+      <stop offset="100%"
+            stop-color="#8B5CF6"
+            stop-opacity="0"/>
     </radialGradient>
 
-    <radialGradient id="glowCert2" cx="12%" cy="86%" r="70%">
-      <stop offset="0%" stop-color="#22c55e" stop-opacity="0.16"/>
-      <stop offset="100%" stop-color="#22c55e" stop-opacity="0"/>
+    <radialGradient id="greenGlowCert"
+                    cx="10%"
+                    cy="88%"
+                    r="74%">
+      <stop offset="0%"
+            stop-color="#22C55E"
+            stop-opacity=".14"/>
+      <stop offset="100%"
+            stop-color="#22C55E"
+            stop-opacity="0"/>
     </radialGradient>
 
-    <filter id="shadowCert" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.28"/>
+    <linearGradient id="reflectionCert"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="0">
+
+      <stop offset="0%"
+            stop-color="#FFFFFF"
+            stop-opacity="0"/>
+
+      <stop offset="36%"
+            stop-color="#FFFFFF"
+            stop-opacity=".03"/>
+
+      <stop offset="50%"
+            stop-color="#FFFFFF"
+            stop-opacity=".20"/>
+
+      <stop offset="64%"
+            stop-color="#FFFFFF"
+            stop-opacity=".05"/>
+
+      <stop offset="100%"
+            stop-color="#FFFFFF"
+            stop-opacity="0"/>
+
+    </linearGradient>
+
+    <clipPath id="certClip">
+      <rect
+        x="10"
+        y="10"
+        width="400"
+        height="210"
+        rx="24"
+      />
+    </clipPath>
+
+    <filter id="shadowCert"
+            x="-20%"
+            y="-20%"
+            width="140%"
+            height="150%">
+      <feDropShadow
+        dx="0"
+        dy="8"
+        stdDeviation="11"
+        flood-color="#000000"
+        flood-opacity=".32"
+      />
     </filter>
 
-    <filter id="blurCert">
+    <filter id="blurCert"
+            x="-30%"
+            y="-30%"
+            width="160%"
+            height="160%">
       <feGaussianBlur stdDeviation="18"/>
     </filter>
 
-    <style>
-      .title {
-        font-family: Inter, Segoe UI, Arial, sans-serif;
-        font-size: 24px;
-        font-weight: 700;
-        fill: #f8fafc;
-      }
-      .subtitle {
-        font-family: Inter, Segoe UI, Arial, sans-serif;
-        font-size: 13px;
-        font-weight: 500;
-        fill: #cbd5e1;
-      }
-      .body {
-        font-family: Inter, Segoe UI, Arial, sans-serif;
-        font-size: 12.5px;
-        fill: #dbe7f5;
-      }
-      .small {
-        font-family: Inter, Segoe UI, Arial, sans-serif;
-        font-size: 11.5px;
-        fill: #94a3b8;
-      }
-      .tag {
-        font-family: Inter, Segoe UI, Arial, sans-serif;
-        font-size: 10.5px;
-        font-weight: 700;
-        fill: #ffffff;
-        letter-spacing: 0.8px;
-      }
-      .item {
-        font-family: Inter, Segoe UI, Arial, sans-serif;
-        font-size: 12.4px;
-        fill: #dbe7f5;
-      }
-      .shine {
-        animation: shineMove 5s linear infinite;
-      }
-      .dot1, .dot2, .dot3 {
-        animation: pulseDot 2.8s ease-in-out infinite;
-      }
-      .dot2 { animation-delay: 0.3s; }
-      .dot3 { animation-delay: 0.6s; }
-      @keyframes shineMove {
-        0% { transform: translateX(-120px) skewX(-18deg); opacity: 0; }
-        20% { opacity: 0.08; }
-        80% { opacity: 0.08; }
-        100% { transform: translateX(480px) skewX(-18deg); opacity: 0; }
-      }
-      @keyframes pulseDot {
-        0%,100% { opacity: 0.65; }
-        50% { opacity: 1; }
-      }
-      @media (prefers-reduced-motion: reduce) {
-        .shine, .dot1, .dot2, .dot3 { animation: none; }
-      }
-    </style>
   </defs>
 
-  <rect x="12" y="12" width="376" height="196" rx="24" fill="url(#bgCert)" stroke="url(#strokeCert)" stroke-opacity="0.55" stroke-width="1.4" filter="url(#shadowCert)"/>
-  <rect x="12" y="12" width="376" height="196" rx="24" fill="url(#glowCert1)"/>
-  <rect x="12" y="12" width="376" height="196" rx="24" fill="url(#glowCert2)"/>
 
-  <ellipse cx="318" cy="48" rx="74" ry="44" fill="#8b5cf6" fill-opacity="0.16" filter="url(#blurCert)"/>
-  <ellipse cx="86" cy="176" rx="82" ry="46" fill="#22c55e" fill-opacity="0.12" filter="url(#blurCert)"/>
+  <!-- CARD -->
 
-  <rect x="28" y="28" width="158" height="24" rx="12" fill="url(#tagCert)"/>
-  <text x="107" y="44" text-anchor="middle" class="tag">CERTIFICATES</text>
+  <rect
+    x="10"
+    y="10"
+    width="400"
+    height="210"
+    rx="24"
+    fill="url(#bgCert)"
+    stroke="url(#borderCert)"
+    stroke-width="1.4"
+    stroke-opacity=".68"
+    filter="url(#shadowCert)"
+  />
 
-  <circle cx="350" cy="40" r="11" fill="#8b5cf6" fill-opacity="0.16" stroke="#c084fc" stroke-opacity="0.6"/>
-  <path d="M345 40.5l3 3 6-7" fill="none" stroke="#e9d5ff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect
+    x="10"
+    y="10"
+    width="400"
+    height="210"
+    rx="24"
+    fill="url(#violetGlowCert)"
+  />
 
-  <text x="28" y="82" class="title">Learning &amp; Achievements</text>
-  <text x="28" y="104" class="subtitle">Core certifications and technical growth</text>
+  <rect
+    x="10"
+    y="10"
+    width="400"
+    height="210"
+    rx="24"
+    fill="url(#greenGlowCert)"
+  />
 
-  <circle class="dot1" cx="32" cy="132" r="4" fill="#22c55e"/>
-  <text x="45" y="136" class="item">Sigma 7 — Full-Stack Web Development (MERN)</text>
 
-  <circle class="dot2" cx="32" cy="156" r="4" fill="#22d3ee"/>
-  <text x="45" y="160" class="item">Data Structures &amp; Algorithms in Java</text>
+  <!-- DECORATIVE GLOWS -->
 
-  <circle class="dot3" cx="32" cy="180" r="4" fill="#c084fc"/>
-  <text x="45" y="184" class="item">Hackathon 2026 — Certificate of Participation</text>
+  <g clip-path="url(#certClip)">
 
-  <rect class="shine" x="-120" y="12" width="70" height="196" rx="20" fill="#ffffff"/>
+    <circle
+      cx="365"
+      cy="42"
+      r="58"
+      fill="#8B5CF6"
+      fill-opacity=".12"
+      filter="url(#blurCert)"
+    />
+
+    <circle
+      cx="52"
+      cy="205"
+      r="65"
+      fill="#22C55E"
+      fill-opacity=".09"
+      filter="url(#blurCert)"
+    />
+
+  </g>
+
+
+  <!-- MOVING REFLECTION -->
+
+  <g clip-path="url(#certClip)">
+
+    <rect
+      x="-150"
+      y="-35"
+      width="92"
+      height="310"
+      rx="24"
+      fill="url(#reflectionCert)"
+      transform="rotate(15 0 0)"
+      opacity=".92">
+
+      <animate
+        attributeName="x"
+        values="-170;500"
+        dur="5.6s"
+        repeatCount="indefinite"
+      />
+
+    </rect>
+
+  </g>
+
+
+  <!-- LABEL -->
+
+  <rect
+    x="28"
+    y="28"
+    width="132"
+    height="26"
+    rx="13"
+    fill="url(#labelCert)"
+  />
+
+  <text
+    x="94"
+    y="45"
+    text-anchor="middle"
+    font-family="Inter,Segoe UI,Arial,sans-serif"
+    font-size="10.5"
+    font-weight="700"
+    letter-spacing=".9"
+    fill="#FFFFFF">
+    CERTIFICATIONS
+  </text>
+
+
+  <!-- VERIFIED ICON -->
+
+  <circle
+    cx="377"
+    cy="41"
+    r="13"
+    fill="#8B5CF6"
+    fill-opacity=".12"
+    stroke="#C084FC"
+    stroke-opacity=".55"
+  />
+
+  <path
+    d="M371.5 41.3l3.5 3.5 7-8"
+    fill="none"
+    stroke="#E9D5FF"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+
+  <!-- TITLE -->
+
+  <text
+    x="28"
+    y="86"
+    font-family="Inter,Segoe UI,Arial,sans-serif"
+    font-size="23"
+    font-weight="700"
+    fill="#F8FAFC">
+    Technical Learning
+  </text>
+
+  <text
+    x="28"
+    y="108"
+    font-family="Inter,Segoe UI,Arial,sans-serif"
+    font-size="12.5"
+    font-weight="500"
+    fill="#CBD5E1">
+    Certifications and completed learning milestones
+  </text>
+
+
+  <!-- ITEM 1 -->
+
+  <circle
+    cx="32"
+    cy="137"
+    r="4"
+    fill="#22C55E">
+
+    <animate
+      attributeName="opacity"
+      values=".55;1;.55"
+      dur="2.8s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+  <text
+    x="45"
+    y="141"
+    font-family="Inter,Segoe UI,Arial,sans-serif"
+    font-size="12.1"
+    fill="#DCE7F5">
+    Sigma 7 — Full-Stack Web Development (MERN)
+  </text>
+
+
+  <!-- ITEM 2 -->
+
+  <circle
+    cx="32"
+    cy="165"
+    r="4"
+    fill="#22D3EE">
+
+    <animate
+      attributeName="opacity"
+      values=".55;1;.55"
+      dur="2.8s"
+      begin=".35s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+  <text
+    x="45"
+    y="169"
+    font-family="Inter,Segoe UI,Arial,sans-serif"
+    font-size="12.1"
+    fill="#DCE7F5">
+    Data Structures &amp; Algorithms in Java
+  </text>
+
+
+  <!-- ITEM 3 -->
+
+  <circle
+    cx="32"
+    cy="193"
+    r="4"
+    fill="#C084FC">
+
+    <animate
+      attributeName="opacity"
+      values=".55;1;.55"
+      dur="2.8s"
+      begin=".7s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+  <text
+    x="45"
+    y="197"
+    font-family="Inter,Segoe UI,Arial,sans-serif"
+    font-size="12.1"
+    fill="#DCE7F5">
+    Hackathon 2026 — Certificate of Participation
+  </text>
+
 </svg>
