@@ -29,7 +29,6 @@
       alt="LeetCode"
     />
   </a>
-
   <a href="mailto:its.atharvdeshmukh@gmail.com" title="Email">
     <img
       align="right"
@@ -39,7 +38,6 @@
       alt="Email"
     />
   </a>
-
   <a href="https://www.linkedin.com/in/atharv-deshmukh-711909372/" title="LinkedIn">
     <img
       align="right"
