@@ -1,39 +1,10 @@
-<!-- ========================================================= -->
-<!--                    ATHARV DESHMUKH                        -->
-<!--         Futuristic • Minimal • Developer Portfolio        -->
-<!-- ========================================================= -->
-
-
-<!-- ======================== HERO =========================== -->
-
-<div align="center">
-
-<picture>
-
-  <!-- DARK MODE -->
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://capsule-render.vercel.app/api?type=venom&height=190&color=0:020617,24:0E7490,52:7C3AED,76:0891B2,100:020617&text=ATHARV%20DESHMUKH&fontColor=F8FAFC&stroke=020617&strokeWidth=0.8&fontSize=41&fontAlignY=46&animation=fadeIn&desc=FULL-STACK%20ENGINEERING%20%E2%80%A2%20AI%20SYSTEMS%20%E2%80%A2%20PRODUCT%20DEVELOPMENT&descAlignY=67&descSize=12"
-  />
-
-  <!-- LIGHT MODE -->
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://capsule-render.vercel.app/api?type=venom&height=190&color=0:F8FAFC,24:22D3EE,52:7C3AED,76:14B8A6,100:F8FAFC&text=ATHARV%20DESHMUKH&fontColor=FFFFFF&stroke=111827&strokeWidth=1&fontSize=41&fontAlignY=46&animation=fadeIn&desc=FULL-STACK%20ENGINEERING%20%E2%80%A2%20AI%20SYSTEMS%20%E2%80%A2%20PRODUCT%20DEVELOPMENT&descAlignY=67&descSize=12"
-  />
-
+<p align="center">
   <img
+    src="hero.svg"
+    alt="Atharv Deshmukh — full-stack engineer working on backend architecture, AI integration and HealthTech"
     width="100%"
-    src="https://capsule-render.vercel.app/api?type=venom&height=190&color=0:020617,24:0E7490,52:7C3AED,76:0891B2,100:020617&text=ATHARV%20DESHMUKH&fontColor=F8FAFC&stroke=020617&strokeWidth=0.8&fontSize=41&fontAlignY=46&animation=fadeIn&desc=FULL-STACK%20ENGINEERING%20%E2%80%A2%20AI%20SYSTEMS%20%E2%80%A2%20PRODUCT%20DEVELOPMENT&descAlignY=67&descSize=12"
-    alt="Atharv Deshmukh"
-  />
-
-</picture>
-
-<img
-  src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=16&duration=2700&pause=950&color=22D3EE&center=true&vCenter=true&width=760&lines=Building+scalable+full-stack+products;Engineering+AI-integrated+systems;Exploring+HealthTech+%2B+intelligent+software;Turning+real+problems+into+working+applications"
-  alt="Developer Focus"
-/>
+  >
+</p>
 
 
 ### `Build with purpose. Improve with every version.`
