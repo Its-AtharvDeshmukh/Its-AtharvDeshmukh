@@ -112,7 +112,7 @@ It combines:
 - OCR-based medical report processing
 - Structured health parameter extraction
 - Android Health Connect integration
-- Wearable telemetry synchronization
+- Wearable telemetry synchronisation
 - Longitudinal Health Timeline
 - Historical Health Trends
 - Medicines and symptom tracking
@@ -236,14 +236,14 @@ Participated in **Hackathon 2026** with **Team Fantastic 4**, presenting and dem
 
 **HealthOrbit — Smart Personal Health Management & Emergency Detection**
 
-During the hackathon, we demonstrated important parts of the platform including:
+During the hackathon, we demonstrated important parts of the platform, including:
 
 - HealthOrbit web platform
 - Health Connect wearable telemetry
 - Longitudinal Health Timeline
 - Medical report processing
 - AI-assisted health features
-- Health data visualization
+- Health data visualisation
 - Backend and database integration
 - User-focused healthcare interface
 
@@ -503,7 +503,7 @@ Backend development areas include:
     &nbsp;→&nbsp;
     <code>TEST</code>
     &nbsp;→&nbsp;
-    <code>SHIP</code>
+    <code>DELIVER</code>
     &nbsp;→&nbsp;
     <code>IMPROVE</code>
   </sub>
