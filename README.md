@@ -455,7 +455,7 @@ Backend development areas include:
   <a
     href="https://github.com/Its-AtharvDeshmukh"
     title="Open my GitHub profile"
-  >X
+  >
     <img
       src="./assets/github-snapshot.svg"
       width="100%"
