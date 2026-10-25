@@ -55,7 +55,7 @@
 
 ## About
 
-Computer Engineering student **(B.Tech '27)** and full-stack developer focused on building practical, scalable software products.
+Computer Engineering student and full-stack developer focused on building practical, scalable software products.
 
 I work across **backend architecture, REST APIs, MongoDB, authentication, AI integrations, prompt engineering, intelligent workflows, and HealthTech systems**.
 
