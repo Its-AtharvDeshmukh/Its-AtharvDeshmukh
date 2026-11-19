@@ -18,7 +18,7 @@
 <!-- ================= MOTTO + SOCIALS ======================= -->
 
 <p>
-  <code>Build with purpose. Improve with every version.</code>
+  <code>Build with purpose. Improve With Every Version.</code>
 
   <a href="https://leetcode.com/u/Atharv__Deshmukh/" title="LeetCode">
     <img
